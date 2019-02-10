@@ -1,5 +1,7 @@
 # Welcome to Orange Haus
-This site serves to document and show my various projects I have built over my time as a developer. It is important to note that some projects are "lost" and only remnants remain. I have tried to document everything I remember, but often things are lost over time. Projects are sorted by year, and if complete/dead then date in which I stopped working on them.
+This site serves to document and show various projects I have built over my time as a developer.
+
+A project with an * means that specifics about the project have been lost to time, and only video or photographs exist. I have done my best to describe these projects.
 
 ## 2019
 
@@ -12,7 +14,7 @@ This site serves to document and show my various projects I have built over my t
 ## 2015
 
 ## 2014
-[Musical Floppy Drive](http://orange.haus/musicalfloppydrive)
+[Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
 
 ## 2013
 
