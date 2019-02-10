@@ -11,4 +11,4 @@ Using an Arduino, Floppy Disk Drive, and an old computer power supply I created 
 
 This was inspired by [this](https://www.youtube.com/watch?v=DxlXT0z_HNE) video.
 
-I used the original Moppy to drive the drive. You can find an updated version [here](https://github.com/SammyIAm/Moppy2).
+I used the original Moppy to control the drive. You can find an updated version [here](https://github.com/SammyIAm/Moppy2).
