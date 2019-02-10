@@ -1,4 +1,7 @@
 # Welcome to Orange Haus
+![alt text](https://orange.haus/images/youtube.png "YouTube Logo")[YouTube](https://www.youtube.com/user/thriftshopgames)   
+![alt text](https://orange.haus/images/twitter.png "Twitter Logo")[Twitter](https://twitter.com/jacobbashista)
+
 This site serves to document and show various projects I have built over my time as a developer.
 
 Projects with an * means that source code for the project has been lost to time, and only video or photographs exist. I have done my best to describe these projects.
@@ -35,8 +38,3 @@ Projects with an * means that source code for the project has been lost to time,
 
 ## 2011
 [Hexbug RC Car *](http://orange.haus/hexbugrc)
-
-# Social
-![alt text](https://orange.haus/images/youtube.png "YouTube Logo")[YouTube](https://www.youtube.com/user/thriftshopgames)
-
-![alt text](https://orange.haus/images/twitter.png "Twitter Logo")[Twitter](https://twitter.com/jacobbashista)
