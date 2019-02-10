@@ -1,7 +1,7 @@
 # Welcome to Orange Haus
 This site serves to document and show various projects I have built over my time as a developer.
 
-A project with an * means that specifics about the project have been lost to time, and only video or photographs exist. I have done my best to describe these projects.
+Projects with an * means that specifics about the project have been lost to time, and only video or photographs exist. I have done my best to describe these projects.
 
 ## 2019
 
