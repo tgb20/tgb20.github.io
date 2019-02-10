@@ -1,4 +1,4 @@
-[[Home]](orange.haus)
+[[Home]](http://orange.haus)
 
 # Musical Floppy Drive
 
