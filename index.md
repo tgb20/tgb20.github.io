@@ -28,6 +28,8 @@ Projects with an * means that source code for the project has been lost to time,
 
 [Spherical Gravity Game *]()
 
+[OSC Controller *]()
+
 [Planet Explor *]()
 
 [Augmented Reality Demo *](http://orange.haus/augmentedrealitydemo)
