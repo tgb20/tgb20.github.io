@@ -3,7 +3,7 @@ This site serves to document and show various projects I have built over my time
 
 Projects with an * means that source code for the project has been lost to time, and only video or photographs exist. I have done my best to describe these projects.
 
-*The following projects are sorted by year, but not by exact date*
+*The following projects are sorted by year, and roughly by month, with closer to the top being newer*
 
 ## 2019
 
@@ -14,24 +14,24 @@ Projects with an * means that source code for the project has been lost to time,
 ## 2016
 
 ## 2015
-[Augmented Reality Demo *]()
-
-[Planet Explor *]()
-
-[20 Years in Five Minutes]()
-
-[Sunflower Dance Party]()
+[RoosterMons *]()
 
 [Xbox 360 Indie Demo *]()
 
-[RoosterMons *]()
+[Sunflower Dance Party]()
+
+[20 Years in Five Minutes]()
+
+[Planet Explor *]()
+
+[Augmented Reality Demo *]()
 
 ## 2014
-[Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
+[FTC Scout *](http://orange.haus/ftcscout)
 
 [Markbot *](http://orange.haus/markbot)
 
-[FTC Scout *](http://orange.haus/ftcscout)
+[Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
 
 ## 2011
 [Hexbug RC Car *](http://orange.haus/hexbugrc)
