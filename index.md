@@ -3,7 +3,7 @@ This site serves to document and show various projects I have built over my time
 
 Projects with an * means that source code for the project has been lost to time, and only video or photographs exist. I have done my best to describe these projects.
 
-*The following projects are sorted by year, but beyond that not any other order.*
+*The following projects are sorted by year, but not by exact date*
 
 ## 2019
 
