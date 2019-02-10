@@ -20,6 +20,9 @@ Projects with an * means that specifics about the project have been lost to time
 
 ## 2012
 
+## 2011
+[Hexbug RC Car *](http://orange.haus/hexbugrc)
+
 # Social
 [YouTube](https://www.youtube.com/user/thriftshopgames)
 
