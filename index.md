@@ -3,6 +3,8 @@ This site serves to document and show various projects I have built over my time
 
 Projects with an * means that source code for the project has been lost to time, and only video or photographs exist. I have done my best to describe these projects.
 
+*The following projects are sorted by year, but beyond that not any other order.*
+
 ## 2019
 
 ## 2018
@@ -17,6 +19,8 @@ Projects with an * means that source code for the project has been lost to time,
 [Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
 
 [Markbot *](http://orange.haus/markbot)
+
+[FTC Scout *](http://orange.haus/ftcscout)
 
 ## 2011
 [Hexbug RC Car *](http://orange.haus/hexbugrc)
