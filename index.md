@@ -22,6 +22,6 @@ Projects with an * means that source code for the project has been lost to time,
 [Hexbug RC Car *](http://orange.haus/hexbugrc)
 
 # Social
-[YouTube](https://www.youtube.com/user/thriftshopgames)
+![alt text](https://orange.haus/images/youtube.png "YouTube Logo")[YouTube](https://www.youtube.com/user/thriftshopgames)
 
-[Twitter](https://twitter.com/jacobbashista)
+![alt text](https://orange.haus/images/twitter.png "Twitter Logo")[Twitter](https://twitter.com/jacobbashista)
