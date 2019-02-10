@@ -44,7 +44,7 @@ Projects with an * means that source code for the project has been lost to time,
 [Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
 
 ## 2013
-[Click *]()
+[Click *](http://orange.haus/click)
 
 [Simple Game *](http://orange.haus/simplegame)
 
