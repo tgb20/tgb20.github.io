@@ -14,6 +14,17 @@ Projects with an * means that source code for the project has been lost to time,
 ## 2016
 
 ## 2015
+[Augmented Reality Demo *]()
+
+[Planet Explor *]()
+
+[20 Years in Five Minutes]()
+
+[Sunflower Dance Party]()
+
+[Xbox 360 Indie Demo *]()
+
+[RoosterMons *]()
 
 ## 2014
 [Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
