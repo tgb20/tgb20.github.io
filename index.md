@@ -24,9 +24,15 @@ Projects with an * means that source code for the project has been lost to time,
 
 [20 Years in Five Minutes]()
 
+[Solar Calc *]()
+
+[Spherical Gravity Game *]()
+
 [Planet Explor *]()
 
-[Augmented Reality Demo *]()
+[Augmented Reality Demo *](http://orange.haus/augmentedrealitydemo)
+
+[Flappy Taffy *]()
 
 ## 2014
 [FTC Scout *](http://orange.haus/ftcscout)
@@ -34,6 +40,9 @@ Projects with an * means that source code for the project has been lost to time,
 [Markbot *](http://orange.haus/markbot)
 
 [Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
+
+## 2013
+[Simple Game *]()
 
 ## 2011
 [Hexbug RC Car *](http://orange.haus/hexbugrc)

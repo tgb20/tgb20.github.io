@@ -20,13 +20,13 @@ At the end of its life it had 4.4 Stars and according to the Google Play Console
 
 The original description was: 
 
-*This app has one two Awards:*
+*"This app has one two Awards:*
 
 *NC East Regional Connect Award*
 
 *NC State Judges Award*
 
-*This app allows you to submit your teams scouting info and view other teams. This app allows you to start developing your game plan with people instantly. You just search for their team name/number and you instantly know what they can do. Start planning instantly. If you need to update your info you just submit a new team and our admins will remove your old one.*
+*This app allows you to submit your teams scouting info and view other teams. This app allows you to start developing your game plan with people instantly. You just search for their team name/number and you instantly know what they can do. Start planning instantly. If you need to update your info you just submit a new team and our admins will remove your old one."*
 
 
 Here are some screenshots:
