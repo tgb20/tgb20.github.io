@@ -1,6 +1,5 @@
 # Welcome to Orange Haus
-![alt text](https://orange.haus/images/youtube.png "YouTube Logo")[YouTube](https://www.youtube.com/user/thriftshopgames)   
-![alt text](https://orange.haus/images/twitter.png "Twitter Logo")[Twitter](https://twitter.com/jacobbashista)
+![alt text](https://orange.haus/images/youtube.png "YouTube Logo")[YouTube](https://www.youtube.com/user/thriftshopgames)   ![alt text](https://orange.haus/images/twitter.png "Twitter Logo")[Twitter](https://twitter.com/jacobbashista)
 
 This site serves to document and show various projects I have built over my time as a developer.
 
