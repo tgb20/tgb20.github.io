@@ -3,7 +3,7 @@
 
 This site serves to document and show various projects I have built over my time as a developer.
 
-When possible I included a link to source code/binaries, but often the source is lost to time.
+When possible, I included a link to source code/binaries, but often the source is lost to time.
 
 *The following projects are sorted by year, and roughly by month, with closer to the top being newer*
 

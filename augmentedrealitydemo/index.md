@@ -17,4 +17,4 @@ The planet used in this demo inspired my next 2015 project, [Planet Explor](http
 
 Since then I have made a few AR apps, but none of which I have saved/uploaded in any form.
 
-The original description was *"This is a demonstration of my augmented reality project. It was inspired by Microsoft HoloLens. I am going to continue updating it until its to a state I like. It looks amazing in person."*
+The original description was *"This is a demonstration of my augmented reality project. It was inspired by Microsoft HoloLens. I am going to continue updating it until it's to a state I like. It looks amazing in person."*
