@@ -17,7 +17,7 @@ At its peek this app had over 5000 installs and 900 teams registered. It was gre
 
 At the end of its life it had 4.4 Stars and according to the Google Play Console it is still installed on 2 active devices. It won our team two awards at competions for the connections it built between teams.
 
-You can download the APK file for the app [here](https://orange.haus/ftcscout/scout.apk), but the database that runs it is long dead.
+You can download the APK file for the app [here](https://drive.google.com/file/d/1XuZ4hDWqUfsGZqPbYA0TCEMnVnEkThdy/view?usp=sharing), but the database that runs it is long dead.
 
 The original description was: 
 
