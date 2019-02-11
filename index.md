@@ -32,21 +32,21 @@ Projects with an * means that source code for the project has been lost to time,
 
 [Planet Explor *]()
 
-[Augmented Reality Demo *](http://orange.haus/augmentedrealitydemo)
+[Augmented Reality Demo *](https://orange.haus/augmentedrealitydemo)
 
-[Flappy Taffy *]()
+[Flappy Taffy *](https://orange.haus)
 
 ## 2014
-[FTC Scout *](http://orange.haus/ftcscout)
+[FTC Scout *](https://orange.haus/ftcscout)
 
-[Markbot *](http://orange.haus/markbot)
+[Markbot *](https://orange.haus/markbot)
 
-[Musical Floppy Drive *](http://orange.haus/musicalfloppydrive)
+[Musical Floppy Drive](https://orange.haus/musicalfloppydrive)
 
 ## 2013
-[Click *](http://orange.haus/click)
+[Click *](https://orange.haus/click)
 
-[Simple Game *](http://orange.haus/simplegame)
+[Simple Game *](https://orange.haus/simplegame)
 
 ## 2011
-[Hexbug RC Car *](http://orange.haus/hexbugrc)
+[Hexbug RC Car](https://orange.haus/hexbugrc)

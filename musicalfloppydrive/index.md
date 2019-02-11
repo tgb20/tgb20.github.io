@@ -1,8 +1,8 @@
-[[Home]](http://orange.haus)
+[[Home]](https://orange.haus)
 
 # Musical Floppy Drive
 
-![alt text](http://orange.haus/musicalfloppydrive/floppy.jpg "Picture of Floppy Disk")
+![alt text](https://orange.haus/musicalfloppydrive/floppy.jpg "Picture of Floppy Disk")
 
 Watch the video [here](https://www.youtube.com/watch?v=ulEEgduwYjE).
 

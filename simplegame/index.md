@@ -1,4 +1,4 @@
-[[Home]](http://orange.haus)
+[[Home]](https://orange.haus)
 
 # Simple Game
 

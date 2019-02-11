@@ -1,8 +1,8 @@
-[[Home]](http://orange.haus)
+[[Home]](https://orange.haus)
 
 # Augmented Reality Demo
 
-![alt text](http://orange.haus/augmentedrealitydemo/ardemo.jpg "Picture of AR Demo")
+![alt text](https://orange.haus/augmentedrealitydemo/ardemo.jpg "Picture of AR Demo")
 
 Watch the video [here](https://www.youtube.com/watch?v=fT6w6jj_5UI).
 
@@ -13,7 +13,7 @@ I don't have a lot of information to say about this project. It was just a fun l
 
 One item of note is the phone I used for the AR demo, the [Sharp Aquos Crystal](https://www.sharpusa.com/ForHome/Mobile/Models/AQUOSCRYSTAL-306SH.aspx). It has incredibly small bezels for the time and even now, besides the giant chin. It was well before the 2017 bezel-less craze. I think it made a great demo phone for AR as it removed the space between real life and the AR world.
 
-The planet used in this demo inspired my next 2015 project, [Planet Explor](http://orange.haus/planetexplor).
+The planet used in this demo inspired my next 2015 project, [Planet Explor](https://orange.haus/planetexplor).
 
 Since then I have made a few AR apps, but none of which I have saved/uploaded in any form.
 

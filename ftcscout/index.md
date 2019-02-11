@@ -1,8 +1,8 @@
-[[Home]](http://orange.haus)
+[[Home]](https://orange.haus)
 
 # FTC Scout
 
-![alt text](http://orange.haus/ftcscout/appicon.png "FTC Scout Icon")
+![alt text](https://orange.haus/ftcscout/appicon.png "FTC Scout Icon")
 
 ## About
 This app was developed in 2014 using [AI2](http://appinventor.mit.edu/explore/) to allow [FTC](https://www.firstinspires.org/robotics/ftc) teams to share scouting data in one global database.
@@ -17,6 +17,7 @@ At its peek this app had over 5000 installs and 900 teams registered. It was gre
 
 At the end of its life it had 4.4 Stars and according to the Google Play Console it is still installed on 2 active devices. It won our team two awards at competions for the connections it built between teams.
 
+You can download the APK file for the app [here](https://orange.haus/ftcscout/scout.apk), but the database that runs it is long dead.
 
 The original description was: 
 
@@ -31,6 +32,6 @@ The original description was:
 
 Here are some screenshots:
 
-![alt text](http://orange.haus/ftcscout/screenshot1.png "Screenshot 1")
-![alt text](http://orange.haus/ftcscout/screenshot2.png "Screenshot 2")
-![alt text](http://orange.haus/ftcscout/screenshot3.png "Screenshot 3")
+![alt text](https://orange.haus/ftcscout/screenshot1.png "Screenshot 1")
+![alt text](https://orange.haus/ftcscout/screenshot2.png "Screenshot 2")
+![alt text](https://orange.haus/ftcscout/screenshot3.png "Screenshot 3")

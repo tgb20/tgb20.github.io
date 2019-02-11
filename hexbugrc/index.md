@@ -1,8 +1,8 @@
-[[Home]](http://orange.haus)
+[[Home]](https://orange.haus)
 
 # Hexbug RC Car
 
-![alt text](http://orange.haus/hexbugrc/hexbugcar.jpg "Picture of Car")
+![alt text](https://orange.haus/hexbugrc/hexbugcar.jpg "Picture of Car")
 
 Watch the video [here](https://www.youtube.com/watch?v=n4c9sMm_AnY).
 
