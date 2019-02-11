@@ -34,7 +34,7 @@ Projects with an * means that source code for the project has been lost to time,
 
 [Augmented Reality Demo *](https://orange.haus/augmentedrealitydemo)
 
-[Flappy Taffy *](https://orange.haus)
+[Flappy Taffy *](https://orange.haus/flappytaffy)
 
 ## 2014
 [FTC Scout *](https://orange.haus/ftcscout)
