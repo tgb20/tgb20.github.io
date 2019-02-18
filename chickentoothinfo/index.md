@@ -9,7 +9,7 @@ The video and photo content this app provides belongs solely to Rooster Teeth an
 
 ### Why FIRST only?
 
-Chicken Tooth is designed to improve the Rooster Teeth iPad experience and I do not wish to take revenue from Rooster Teeth. I cannot serve their ads, so I require every use of Chicken Tooth to have a paying FIRST membership.
+Chicken Tooth is designed to improve the Rooster Teeth iPad experience and I do not wish to take revenue from Rooster Teeth. I cannot serve their ads, so I require every user of Chicken Tooth to have a paying FIRST membership.
 
 ### How do I request a feature?
 
