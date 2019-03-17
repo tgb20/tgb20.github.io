@@ -28,7 +28,7 @@ When possible, I included a link to source code/binaries, but often the source i
 
 [Spherical Gravity Game]()
 
-[OSC Controller]()
+[OSC Controller](https://orange.haus/osccontroller)
 
 [Planet Explor](https://orange.haus/planetexplor)
 
