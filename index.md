@@ -30,7 +30,7 @@ When possible, I included a link to source code/binaries, but often the source i
 
 [OSC Controller]()
 
-[Planet Explor]()
+[Planet Explor](https://orange.haus/planetexplor)
 
 [Augmented Reality Demo](https://orange.haus/augmentedrealitydemo)
 
