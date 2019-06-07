@@ -84,15 +84,15 @@ When possible, I included a link to source code/binaries, but often the source i
 [Battlebot Restoration]() *Not Written*
 
 ## 2015
-[RoosterMons]()
+[RoosterMons](https://orange.haus/roostermons)
 
-[Xbox 360 Indie Demo]() *Not Written*
+[Xbox 360 Indie Demo](https://orange.haus/xbox360demo)
 
-[Sunflower Dance Party]() *Not Written*
+[Sunflower Dance Party](https://orange.haus/sunflowerdance)
 
-[20 Years in Five Minutes]() *Not Written*
+[20 Years in Five Minutes](https://orange.haus/twentyinfive)
 
-[Solar Calc]() *Not Written*
+[Solar Calc](https://orange.haus/solarcalc)
 
 [Spherical Gravity Game](https://orange.haus/sphericalgame)
 
