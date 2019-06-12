@@ -1,16 +1,5 @@
+theme: jekyll-theme-minimal
 title: Orange Haus
 description: Jacob Bashista
-logo_url: /images/logo.png
+logo: /images/logo.png
 google_analytics: UA-134528006-1
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: heiswayi/the-plain
-
-# Site Build
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-sass:
-  style: :compressed
