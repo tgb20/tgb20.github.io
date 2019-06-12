@@ -2,9 +2,7 @@
 
 # Hexbug RC Car
 
-![alt text](https://orange.haus/hexbugrc/hexbugcar.jpg "Picture of Car")
-
-Watch the video [here](https://www.youtube.com/watch?v=n4c9sMm_AnY).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n4c9sMm_AnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 This RC car was made by using a hex bug, some hot glue, and LEGO pieces.

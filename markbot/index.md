@@ -2,9 +2,7 @@
 
 # Markbot
 
-![alt text](https://orange.haus/markbot/markbot.jpg "Picture of Markbot")
-
-Watch the video [here](https://youtu.be/0AnCygdy2ks).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0AnCygdy2ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 I created Markbot in 2014 as my friend Mark was leaving for college. Nearly every month we would either play board games or have movie marathons. This was going to be an issue when he left for college.

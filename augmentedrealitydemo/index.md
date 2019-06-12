@@ -2,9 +2,7 @@
 
 # Augmented Reality Demo
 
-![alt text](https://orange.haus/augmentedrealitydemo/ardemo.jpg "Picture of AR Demo")
-
-Watch the video [here](https://www.youtube.com/watch?v=fT6w6jj_5UI).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fT6w6jj_5UI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 I made this project after watching the [HoloLens announcement](https://www.youtube.com/watch?v=FbhVCZKVOqE). I used [Unity](https://unity3d.com) and the then Beta version of [Vuforia](https://vuforia.com).

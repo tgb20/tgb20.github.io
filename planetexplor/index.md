@@ -2,9 +2,7 @@
 
 # Planet Explor
 
-![alt text](https://orange.haus/planetexplor/planetexplor.jpg "Screenshot of Game")
-
-Watch the video [here](https://www.youtube.com/watch?v=m60d6AUYbX0).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m60d6AUYbX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 This game/educational tool was created using [Unity](https://unity3d.com) and [NASA 3D Resources](https://nasa3d.arc.nasa.gov/). I was inspired to make this after making the [AR demo](https://orange.haus/augmentedrealitydemo) in which I used a planet model. This was going to be the first game I would ever "sell" but never actually setup any store for it because the polish on the game was not to a high enough quality.

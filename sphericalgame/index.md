@@ -2,9 +2,7 @@
 
 # Spherical Gravity Game
 
-![alt text](https://orange.haus/sphericalgame/sgame.jpg "Picture of Spherical Gravity Game")
-
-Watch the video [here](https://www.youtube.com/watch?v=IQisLJCyPyc).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQisLJCyPyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 This was an idea for a game I had where you would solve puzzles on a series of spherical planets. The video demonstrates one of the first puzzles, in which you have to grow an apple tree, but the seed spawning bugged out.
