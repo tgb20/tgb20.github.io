@@ -2,11 +2,7 @@
 
 # 20 Years in Five Minutes
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/bcffWBLUHDg" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bcffWBLUHDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 This is a simulation I made in Maya for a class at UMass Amherst in high school. Despite what it claims, its not accurate in anyway and has some typos. I would take it down but am leaving it up solely for archival purposes.
