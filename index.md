@@ -84,9 +84,9 @@ When possible, I included a link to source code/binaries, but often the source i
 [Battlebot Restoration]() *Not Written*
 
 ## 2015
-[RoosterMons](https://orange.haus/roostermons)
+[RoosterMons]() *Not Written*
 
-[Xbox 360 Indie Demo](https://orange.haus/xbox360demo)
+[Xbox 360 Indie Demo]() *Not Written*
 
 [Sunflower Dance Party](https://orange.haus/sunflowerdance)
 
