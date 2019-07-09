@@ -2,6 +2,8 @@
 
 # Stream Link
 
+[Download Extensions](https://orange.haus/streamlink/StreamLink.aix)
+
 [Extension Source](https://github.com/holyokecodes/appinventor-sources)
 
 [Server Source](https://github.com/tgb20/StreamLink)
