@@ -2,7 +2,7 @@
 
 # Stream Link
 
-[Download Extensions](https://orange.haus/streamlink/StreamLink.aix)
+[Download Extension](https://orange.haus/streamlink/StreamLink.aix)
 
 [Extension Source](https://github.com/holyokecodes/appinventor-sources)
 
