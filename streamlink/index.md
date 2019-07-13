@@ -17,7 +17,7 @@
 - Device IDs are now enforced by the extension and not user configurable
 - Links can now have descriptions
 - When joining a link you now get the link code and description returned
-- Links are now deleted after 24 hours
+- Links are now deleted after 24 hours (if not in use)
 
 ## About
 StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations. This project will provide co-robotics workshops run by Holyoke Codes at Girls Inc. and Boys and Girls Club of Holyoke. 
