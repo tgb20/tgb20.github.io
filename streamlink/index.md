@@ -14,6 +14,12 @@
 
 # New Changes
 
+- Icon shows ! if the extension needs an update
+- Corrected spelling mistakes
+- Removed OnLinkCreated
+
+# Changelog
+
 - Device IDs are now enforced by the extension and not user configurable
 - Links can now have descriptions
 - When joining a link you now get the link code and description returned
