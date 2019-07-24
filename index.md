@@ -5,7 +5,9 @@ This site serves to document and show various projects I have built over my time
 
 When possible, I included a link to source code/binaries, but often the source is lost to time.
 
-## Apps
+## Released Projects
+
+### Apps
 
 [Chicken Tooth Beta]() *Not Written*
 
@@ -17,15 +19,13 @@ When possible, I included a link to source code/binaries, but often the source i
 
 [FTC Scout](https://orange.haus/ftcscout)
 
-## Extensions
+### Extensions
 
 [StreamLink (App Inventor)](https://orange.haus/streamlink)
 
-## Games
+### Games
 
 [Goats in the Grotto - Ludum Dare 43]() *Not Written*
-
-[Flappy Bird on Nintendo Switch Demo]() *Not Written*
 
 [Extra Trash - Ludum Dare 42]() *Not Written*
 
@@ -35,7 +35,7 @@ When possible, I included a link to source code/binaries, but often the source i
 
 [Flappy Taffy](https://orange.haus/flappytaffy)
 
-## Tutorials
+### Tutorials
 
 [AlexaPi Tutorial]() *Not Written*
 
