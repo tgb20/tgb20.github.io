@@ -4,6 +4,8 @@
 
 [Download Extension](https://orange.haus/streamlink/StreamLink.aix)
 
+[Download Chat Demo](https://orange.haus/streamlink/StreamLinkDemo.aia)
+
 [Extension Source](https://github.com/holyokecodes/appinventor-sources)
 
 [Server Source](https://github.com/tgb20/StreamLink)
