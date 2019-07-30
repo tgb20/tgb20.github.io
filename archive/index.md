@@ -76,7 +76,7 @@
 
 [Swift Tutorial](https://github.com/tgb20/Swift)
 
-[Creeper CAD Model Tutorial]((https://www.youtube.com/watch?v=BoxEsX4SreY&list=PLrNxuN40q2pOtEOpXphFstE_b1oppHhY4)
+[Creeper CAD Model Tutorial](https://www.youtube.com/watch?v=BoxEsX4SreY&list=PLrNxuN40q2pOtEOpXphFstE_b1oppHhY4)
 
 [Battlebot Restoration]() *Not Written*
 
