@@ -9,12 +9,12 @@
 
 [Robotic Mini Golf]() *Not Written*
 
-[Chicken Tooth Beta]() *Not Written*
+[Chicken Tooth Beta](https://orange.haus/chickentoothinfo)
 
-[Trend Master]() *Not Written*
+[Trend Master](https://www.amazon.com/Orange-Haus-Trend-Master/dp/B07NPHJVQ9/)
 
 ## 2018
-[Goats in the Grotto - Ludum Dare 43]() *Not Written*
+[Goats in the Grotto - Ludum Dare 43](https://tgb20.itch.io/goats-in-the-grotto)
 
 [Flappy Bird on Nintendo Switch Demo]() *Not Written*
 
@@ -24,59 +24,59 @@
 
 [evScript]() *Not Written*
 
-[Extra Trash - Ludum Dare 42]() *Not Written*
+[Extra Trash - Ludum Dare 42](https://tgb20.itch.io/extra-trash)
 
 [Untitled Car Game]() *Not Written*
 
-[AlexaPi Tutorial]() *Not Written*
+[AlexaPi Tutorial](https://www.youtube.com/watch?v=qV2n5qaHaJE)
 
 [Chicken Tooth Preview]() *Not Written*
 
-[OpenCV Tutorial]() *Not Written*
+[OpenCV Tutorial](https://github.com/tgb20/OpenCV)
 
-[Super Bario Man - Ludum Dare 41]() *Not Written*
+[Super Bario Man - Ludum Dare 41](https://ldjam.com/events/ludum-dare/41/super-bario-man)
 
 [Project Fly]() *Not Written*
 
-[Snapchat Lens Studio Tutorial]() *Not Written*
+[Snapchat Lens Studio Tutorial](https://www.youtube.com/watch?v=f1lzaAiesdU&list=PLrNxuN40q2pNeR_gPf0Ywl_RHB5IFiPdT)
 
 ## 2017
-[The Paper - Ludum Dare 40]() *Not Written*
+[The Paper - Ludum Dare 40](https://tgb20.itch.io/the-paper)
 
 [Mortality]() *Not Written*
 
 [Inital Trend Master Demo]() *Not Written*
 
-[Arduino Tutorials]() *Not Written*
+[Arduino Tutorials](https://github.com/tgb20/Arduino)
 
 [Banana or Not]() *Not Written*
 
-[3D Game Club]() *Not Written*
+[3D Game Club](https://www.youtube.com/watch?v=m3rRgyJnDtE&list=PLrNxuN40q2pOJkrT34AE9VKTf-3IHm5da)
 
-[April Fools Pranks with Tamper Monkey]() *Not Written*
+[April Fools Pranks with Tamper Monkey](https://github.com/tgb20/April-Fools)
 
 [NYC Subway Map]() *Not Written*
 
 [FRC Simulator]() *Not Written*
 
-[goMake Mobile App]() *Not Written*
+[goMake Mobile App](https://www.youtube.com/watch?v=tzmeQJuCVUo)
 
-[Processing Tutorials]() *Not Written*
+[Processing Tutorials](https://github.com/tgb20/Processing)
 
 [Driving FRC Robot with the “Force”]() *Not Written*
 
-[2D Game Club]() *Not Written*
+[2D Game Club](https://www.youtube.com/watch?v=BnT4uQY8QdE&list=PLrNxuN40q2pMnwPjTGfI4qapEUCRa96jF)
 
 ## 2016
 [MinelyMod]() *Not Written*
 
-[Unity Tutorial]() *Not Written*
+[Unity Tutorial](https://github.com/tgb20/Unity)
 
 [goMake Mobile App Test]() *Not Written*
 
-[Swift Tutorial]() *Not Written*
+[Swift Tutorial](https://github.com/tgb20/Swift)
 
-[Creeper CAD Model Tutorial]() *Not Written*
+[Creeper CAD Model Tutorial]((https://www.youtube.com/watch?v=BoxEsX4SreY&list=PLrNxuN40q2pOtEOpXphFstE_b1oppHhY4)
 
 [Battlebot Restoration]() *Not Written*
 
