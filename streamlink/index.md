@@ -14,14 +14,17 @@
 
 ![alt text](https://orange.haus/streamlink/clientimage.png "Picture of Client Device")
 
-# New Changes
+# Changelog
 
+##V3
+- Fixed Typo
+
+##V2
 - Icon shows ! if the extension needs an update
 - Corrected spelling mistakes
 - Removed OnLinkCreated
 
-# Changelog
-
+##V1
 - Device IDs are now enforced by the extension and not user configurable
 - Links can now have descriptions
 - When joining a link you now get the link code and description returned
