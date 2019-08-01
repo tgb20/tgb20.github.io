@@ -16,15 +16,15 @@
 
 # Changelog
 
-##V3
+## V3
 - Fixed Typo
 
-##V2
+## V2
 - Icon shows ! if the extension needs an update
 - Corrected spelling mistakes
 - Removed OnLinkCreated
 
-##V1
+## V1
 - Device IDs are now enforced by the extension and not user configurable
 - Links can now have descriptions
 - When joining a link you now get the link code and description returned
