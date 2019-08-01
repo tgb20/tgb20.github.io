@@ -16,6 +16,9 @@
 
 # Changelog
 
+## V4
+- Migrated to Heroku
+
 ## V3
 - Fixed Typo
 
