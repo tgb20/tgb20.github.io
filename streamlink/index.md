@@ -16,6 +16,9 @@
 
 # Changelog
 
+## V5
+- Using default android Base64 encoding and decoding
+
 ## V4
 - Migrated to Heroku
 
