@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mediumish</title>
+    <description>Jacob Bashista</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 31 Jan 2020 17:57:03 -0500</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2020 17:57:03 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Site Under Construction</title>
+        <description>&lt;p&gt;I am in the process of rebuilding the website, so some information may be missing.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/underconstruction/</link>
+        <guid isPermaLink="true">http://localhost:4000/underconstruction/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MinelyMod</title>
+        <description>&lt;p&gt;Making the creation of Minecraft add-ons simple.&lt;/p&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;In late 2016 Mojang announced that the bedrock edition of Minecraft would be supporting mods through an add-on system. These Add-Ons were created with JSON and could modify the way Minecraft worked. I was constantly asked to create a tutorial in Minecraft modding and this seemed like a great way to do it.&lt;/p&gt;
+
+&lt;p&gt;I created a website in which anyone could make Minecraft add-ons using a Blockly based programming enviroment. To send the mod to someones device we generated QR codes with a link to the mod, and when opened it would install it to your Minecraft game. This system worked great and we even taught a class on it.&lt;/p&gt;
+
+&lt;p&gt;But Minecraft kept updating the add-ons, almost 1 update a week, and I just couldn’t keep up with the new features and mobs they were adding. They have since leveled out, and even introduced JavaScript based scripting for the mods, so it is a goal of mine to have MinelyMod running again, modeled after Scratch 3.&lt;/p&gt;
+
+&lt;p&gt;The website has since been shutdown, and just redirects back to this post, but one day it will return. &lt;a href=&quot;http://minelymod.com&quot;&gt;MinelyMod&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 11 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/minelymod/</link>
+        <guid isPermaLink="true">http://localhost:4000/minelymod/</guid>
+        
+        
+        <category>tutorial</category>
+        
+        <category>app</category>
+        
+      </item>
+    
+      <item>
+        <title>Introduction to Swift</title>
+        <description>&lt;p&gt;A simple class I taught in how to make tic tac toe in Swift.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tgb20/Swift&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+
+&lt;p&gt;Swift is my favorite language to program in and when I got the opportunity to make a class for Holyoke Codes I was quite excitied. This is an adapted tutorial I found online to make it more teachable. With the introduction of SwiftUI and the recent acquisition of several more Macs I plan to make a new guide using SwiftUI.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/swift/</link>
+        <guid isPermaLink="true">http://localhost:4000/swift/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>First HAB Launch</title>
+        <description>&lt;p&gt;I started working with goMake to build out a app to track HABs.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OvuRP-kzWhk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;This was my first launch with goMake using a very simple test application I created to track their balloons. I would go onto develop a full app with a full chat and map tracking abilities.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“A time-lapse of the 40 minute setup of goMake-1. This balloon was in the air for about 2hrs and 50minutes. Our GPS on the balloon, both primary and backup, failed, so we had to drive to the estimated drop point and look up. We saw it hit the ground and spent 3 hours walking in the woods searching for it. We called it when it was getting late. At around 12:30am the backup radio started working again and in the morning goMake drove out to go pick it up. it was a great first launch!”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/habdemo/</link>
+        <guid isPermaLink="true">http://localhost:4000/habdemo/</guid>
+        
+        
+        <category>making</category>
+        
+        <category>app</category>
+        
+      </item>
+    
+      <item>
+        <title>Making a Minecraft Creeper in TinkerCAD</title>
+        <description>&lt;p&gt;A tutorial I made for making a crepper in TinkerCAD to be 3D printed.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BoxEsX4SreY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/M9ClCYBTnIk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+
+&lt;p&gt;This was my first class I taught at Holyoke Codes. I showed off a basic use of TinkerCAD to create 3D models. We have continued to use TinkerCAD for many more projects and its still an excellent tool. This tutorial was featured on the TinkerCAD twitter account when it was first published.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“Whenever you see a yellow flash I used CTRL + D or CMD + D to make a copy of  an object. How to make a creeper in TinkerCAD. Designed for Holyoke Codes but available to anyone”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jul 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/creeper/</link>
+        <guid isPermaLink="true">http://localhost:4000/creeper/</guid>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Battlebot Restoration</title>
+        <description>&lt;p&gt;Attempting to restore a battle bot found at a vocational school.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tfbKbnMpgsA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+
+&lt;p&gt;I was helping clean out the storage of a vocational school and found this battlebot sitting in a crate. Once I knew I was able to take it, I put my tag on it to take it home, drove back to my house, got our pickup, and then drove back to grab it.&lt;/p&gt;
+
+&lt;p&gt;It was build in the late 90s/early 2000s so the hardware inside is not very usable, but the motors and metal frame are still there. The electronics use an old proprietary control system from FIRST FRC so it won’t be usable. I plan to rebuild it over the summer, but as of now I don’t have time.&lt;/p&gt;
+
+&lt;p&gt;Its attacking power comes from this mace than swings with a large geared motor. The spike on the end were originally missing, but I found them a few days later in another box. Overall I hope it will be a cool restoration, and I might even be able to compete with it.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“I recently found an old battlebot and I am planning on restoring it to its original working functionality. I will be uploading build logs as I make progress in restoring Nemes/Nemesis.”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/battlebot/</link>
+        <guid isPermaLink="true">http://localhost:4000/battlebot/</guid>
+        
+        
+        <category>making</category>
+        
+      </item>
+    
+      <item>
+        <title>RoosterMons</title>
+        <description>&lt;p&gt;A fan Pokemon game using RoosterMons from the RT Extra Life stream poster.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/auT25K7To04&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+
+&lt;p&gt;In this Pokemon clone I was attempting to recreate a simple Pokemon game in Unity3D containing RTs RoosterMons. I got simple battles and tall grass to work, but lost motiviation to continue working on it as I started to need more art, and I am not good at pixel art. It also was taking a lot of time for a game that might not even be played by many people.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“A pokemon clone I am creating to allow people to play as the Roosterteeth roostermons in an actual game. This is the first build and I hope to have it finished by the end of December.”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/roostermons/</link>
+        <guid isPermaLink="true">http://localhost:4000/roostermons/</guid>
+        
+        
+        <category>game</category>
+        
+      </item>
+    
+      <item>
+        <title>Xbox 360 Indie Development</title>
+        <description>&lt;p&gt;I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lurxyxEQ4do&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;With Dreamspark you get access to a lot of Microsofts professional development software, including the libraries required for build an Xbox 360 game. Shortly after getting the software I made this quick demo, but I later found the access they provide to be quite slow and not that usful so I did not develop for the 360 any more.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“This is a quick talk about exporting to the Xbox 360 and Microsoft DreamSpark”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/xboxindie/</link>
+        <guid isPermaLink="true">http://localhost:4000/xboxindie/</guid>
+        
+        
+        <category>game</category>
+        
+      </item>
+    
+      <item>
+        <title>Sunflower Dance Party</title>
+        <description>&lt;p&gt;This is a simulation I made in Maya for a class at UMass Amherst in high school.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0Tso2ePtJUc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;As its sole comment says “That is just a ball popping in and out of a funnel.”.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“Sunflower Dance Party by Kevin Macleod Check out my new website at jacobbashista.net”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/sunflowerdance/</link>
+        <guid isPermaLink="true">http://localhost:4000/sunflowerdance/</guid>
+        
+        
+        <category>render</category>
+        
+      </item>
+    
+      <item>
+        <title>20 Years in Five Minutes</title>
+        <description>&lt;p&gt;This is a simulation I made in Maya for a class at UMass Amherst in high school.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bcffWBLUHDg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;Despite what it claims, its not accurate in anyway and has some typos. I would take it down but am leaving it up solely for archival purposes.&lt;/p&gt;
+
+&lt;p&gt;The original description was &lt;em&gt;“This is a video of the position of the planets for the next 20 years. Their distances from each other and their sizes is not accurate. Only their rotational position around the sun is accurate. Thanks for watching and subscribe for more.”&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/twentyyears/</link>
+        <guid isPermaLink="true">http://localhost:4000/twentyyears/</guid>
+        
+        
+        <category>render</category>
+        
+      </item>
+    
+  </channel>
+</rss>
