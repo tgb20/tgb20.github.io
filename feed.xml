@@ -1,217 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mediumish</title>
-    <description>Jacob Bashista</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Jan 2020 17:03:45 -0500</pubDate>
-    <lastBuildDate>Fri, 31 Jan 2020 17:03:45 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>Site Under Construction</title>
-        <description>&lt;p&gt;I am in the process of rebuilding the website, so some information may be missing.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 31 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/underconstruction/</link>
-        <guid isPermaLink="true">http://localhost:4000/underconstruction/</guid>
-        
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>RoosterMons</title>
-        <description>&lt;p&gt;A fan Pokemon game using RoosterMons from the RT Extra Life stream poster.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/auT25K7To04&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-
-&lt;p&gt;In this Pokemon clone I was attempting to recreate a simple Pokemon game in Unity3D containing RTs RoosterMons. I got simple battles and tall grass to work, but lost motiviation to continue working on it as I started to need more art, and I am not good at pixel art. It also was taking a lot of time for a game that might not even be played by many people.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“A pokemon clone I am creating to allow people to play as the Roosterteeth roostermons in an actual game. This is the first build and I hope to have it finished by the end of December.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/roostermons/</link>
-        <guid isPermaLink="true">http://localhost:4000/roostermons/</guid>
-        
-        
-        <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>Xbox 360 Indie Development</title>
-        <description>&lt;p&gt;I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lurxyxEQ4do&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;With Dreamspark you get access to a lot of Microsofts professional development software, including the libraries required for build an Xbox 360 game. Shortly after getting the software I made this quick demo, but I later found the access they provide to be quite slow and not that usful so I did not develop for the 360 any more.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“This is a quick talk about exporting to the Xbox 360 and Microsoft DreamSpark”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Sep 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/xboxindie/</link>
-        <guid isPermaLink="true">http://localhost:4000/xboxindie/</guid>
-        
-        
-        <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>Sunflower Dance Party</title>
-        <description>&lt;p&gt;This is a simulation I made in Maya for a class at UMass Amherst in high school.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0Tso2ePtJUc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;As its sole comment says “That is just a ball popping in and out of a funnel.”.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“Sunflower Dance Party by Kevin Macleod Check out my new website at jacobbashista.net”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Aug 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/sunflowerdance/</link>
-        <guid isPermaLink="true">http://localhost:4000/sunflowerdance/</guid>
-        
-        
-        <category>render</category>
-        
-      </item>
-    
-      <item>
-        <title>20 Years in Five Minutes</title>
-        <description>&lt;p&gt;This is a simulation I made in Maya for a class at UMass Amherst in high school.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bcffWBLUHDg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;Despite what it claims, its not accurate in anyway and has some typos. I would take it down but am leaving it up solely for archival purposes.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“This is a video of the position of the planets for the next 20 years. Their distances from each other and their sizes is not accurate. Only their rotational position around the sun is accurate. Thanks for watching and subscribe for more.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/twentyyears/</link>
-        <guid isPermaLink="true">http://localhost:4000/twentyyears/</guid>
-        
-        
-        <category>render</category>
-        
-      </item>
-    
-      <item>
-        <title>Solar Calc</title>
-        <description>&lt;p&gt;SolarCalc is an app that helps you size your grid tied solar array to offset any portion (or all!) of your electric bill.&lt;/p&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;Find out how much you can expect to pay when GridFree! NC manages your installation, and find out how much you may save with government incentives!  Easy to use and understand.&lt;/p&gt;
-
-&lt;p&gt;Using a database provided by the owner of the company and provided with basic information about your electrical bill and location I built a small search engine to compare your location with their rates. It was designed for their employees and potential customers to use.&lt;/p&gt;
-
-&lt;p&gt;This app was taken down something in late 2018, early 2019 for not updating to new Play Store standards. The company it was built for no longer exists, so its not anything I plan on bringing back.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 May 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/solarcalc/</link>
-        <guid isPermaLink="true">http://localhost:4000/solarcalc/</guid>
-        
-        
-        <category>app</category>
-        
-      </item>
-    
-      <item>
-        <title>Spherical Gravity Game</title>
-        <description>&lt;p&gt;This was an idea for a game I had where you would solve puzzles on a series of spherical planets.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IQisLJCyPyc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;The video demonstrates one of the first puzzles, in which you have to grow an apple tree, but the seed spawning bugged out.&lt;/p&gt;
-
-&lt;p&gt;This idea never really went anywhere, but I knew the main character would be a pig.&lt;/p&gt;
-
-&lt;p&gt;The original caption was &lt;em&gt;“I recently found a bug in the game I am currently making and I thought I might share it.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/spherical/</link>
-        <guid isPermaLink="true">http://localhost:4000/spherical/</guid>
-        
-        
-        <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>OSC Controller</title>
-        <description>&lt;p&gt;Using an Arduino with Processing I built an OSC remote control.&lt;/p&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;This project is a weird &lt;a href=&quot;https://www.youtube.com/watch?v=lIFE7h3m40U&quot;&gt;“bodge”&lt;/a&gt; together of various components. The Arduino was running a relay script that let a Processing library control it directly. Within processing there were two apps, one running on my laptop, the other running on an Android tablet. Between the two apps a wireless OSC library was used to send information.&lt;/p&gt;
-
-&lt;p&gt;You can learn more about OSC &lt;a href=&quot;http://opensoundcontrol.org/introduction-osc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;While OSC is designed mainly for sound and midi, I found a way to just use these same signals to control some LEDS.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/osccontroller2.jpeg&quot; alt=&quot;alt text&quot; title=&quot;Picture of Arduino 2&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/osccontroller/</link>
-        <guid isPermaLink="true">http://localhost:4000/osccontroller/</guid>
-        
-        
-        <category>making</category>
-        
-      </item>
-    
-      <item>
-        <title>Planet Explor</title>
-        <description>&lt;p&gt;This game/educational tool was created using &lt;a href=&quot;https://unity3d.com&quot;&gt;Unity&lt;/a&gt; and &lt;a href=&quot;https://nasa3d.arc.nasa.gov/&quot;&gt;NASA 3D Resources&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m60d6AUYbX0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;I was inspired to make this after making the &lt;a href=&quot;https://orange.haus/augmentedreality&quot;&gt;AR demo&lt;/a&gt; in which I used a planet model. This was going to be the first game I would ever “sell” but never actually setup any store for it because the polish on the game was not to a high enough quality.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“This is a trailer for my new program Planet Explor. Planet Explor lets you explore the solar system and find new information about our planets. This program is designed to teach people new and interesting things about our solar system. Available on Mac, Windows, and Linux”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/planetexplor/</link>
-        <guid isPermaLink="true">http://localhost:4000/planetexplor/</guid>
-        
-        
-        <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>Augmented Reality Demo</title>
-        <description>&lt;p&gt;I made this project after watching the &lt;a href=&quot;https://www.youtube.com/watch?v=FbhVCZKVOqE&quot;&gt;HoloLens announcement&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fT6w6jj_5UI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;I used &lt;a href=&quot;https://unity3d.com&quot;&gt;Unity&lt;/a&gt; and the then Beta version of &lt;a href=&quot;https://vuforia.com&quot;&gt;Vuforia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I don’t have a lot of information to say about this project. It was just a fun little experiment with building an AR app. It is also the first video I ever uploaded to YouTube.&lt;/p&gt;
-
-&lt;p&gt;One item of note is the phone I used for the AR demo, the &lt;a href=&quot;https://www.sharpusa.com/ForHome/Mobile/Models/AQUOSCRYSTAL-306SH.aspx&quot;&gt;Sharp Aquos Crystal&lt;/a&gt;. It has incredibly small bezels for the time and even now, besides the giant chin. It was well before the 2017 bezel-less craze. I think it made a great demo phone for AR as it removed the space between real life and the AR world.&lt;/p&gt;
-
-&lt;p&gt;The planet used in this demo inspired my next 2015 project, &lt;a href=&quot;https://orange.haus/planetexplor&quot;&gt;Planet Explor&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Since then I have made a few AR apps, but none of which I have saved/uploaded in any form.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“This is a demonstration of my augmented reality project. It was inspired by Microsoft HoloLens. I am going to continue updating it until it’s to a state I like. It looks amazing in person.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/augmentedreality/</link>
-        <guid isPermaLink="true">http://localhost:4000/augmentedreality/</guid>
-        
-        
-        <category>render</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
