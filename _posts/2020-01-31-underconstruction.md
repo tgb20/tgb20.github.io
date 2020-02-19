@@ -10,4 +10,4 @@ featured: true
 hidden: true
 ---
 
-I am in the process of rebuilding the website, so some information may be missing.
+I am in the process of rebuilding the website, so some posts have not be transfered yet.
