@@ -5,18 +5,121 @@
     <description>Jacob Bashista</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Jan 2020 17:57:03 -0500</pubDate>
-    <lastBuildDate>Fri, 31 Jan 2020 17:57:03 -0500</lastBuildDate>
+    <pubDate>Sat, 22 Feb 2020 17:45:05 -0500</pubDate>
+    <lastBuildDate>Sat, 22 Feb 2020 17:45:05 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Site Under Construction</title>
-        <description>&lt;p&gt;I am in the process of rebuilding the website, so some information may be missing.&lt;/p&gt;
+        <description>&lt;p&gt;I am in the process of rebuilding the website, so some posts have not been transfered yet.&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Jan 2020 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/underconstruction/</link>
         <guid isPermaLink="true">http://localhost:4000/underconstruction/</guid>
         
+        
+      </item>
+    
+      <item>
+        <title>StreamLink</title>
+        <description>&lt;p&gt;StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/linkclientimage.png&quot; alt=&quot;alt text&quot; title=&quot;Picture of Client Device&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;This project will provide co-robotics workshops run by Holyoke Codes at Girls Inc. and Boys and Girls Club of Holyoke.&lt;/p&gt;
+
+&lt;p&gt;StreamLink provides video and audio streaming, as well as other data types, between devices across networks. StreamLink provides blocks to easily create apps such as video calling, chat applications, home security systems, and remote control devices. Devices just need a shared LinkCode and an optional password.&lt;/p&gt;
+
+&lt;p&gt;StreamLink works directly with the camera input from a device and provides a video source for the App Inventor video player, allowing for easy integration with existing App Inventor components. StreamLink is not just limited to audio/video transmission, but supports other common App Inventor data types, including Logic, Text, and Math blocks. An additional method of sending any object is provided, but should be used with an understanding of what is being sent in a message.&lt;/p&gt;
+
+&lt;p&gt;StreamLink provides code blocks that add the ability to create an encrypted connection between authenticated devices through a server. Built on socket.io and NodeJS, the server is open source and can be deployed and customized as desired.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/holyokecodes/appinventor-sources&quot;&gt;Extension Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/tgb20/StreamLink&quot;&gt;Server Source&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/streamlink/</link>
+        <guid isPermaLink="true">http://localhost:4000/streamlink/</guid>
+        
+        
+        <category>app</category>
+        
+      </item>
+    
+      <item>
+        <title>Robotic Mini Golf</title>
+        <description>&lt;p&gt;With a small group of students I worked on building a robotic mini golf course for the Holyoke Public library.&lt;/p&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;The main hole I worked on was a large jaw that opened and closed by raising your hands into the air. This was accomplished with a Xbox Kinect sensor reading the arm position of all the players putting. When their hands went about their head it sent a message through the socket server to open up the jaws and let the players ball reach the hole.&lt;/p&gt;
+
+&lt;p&gt;The jaws were designed in Fusion 360 and plasma cut to bend into the shape, with room for an axle to rotate to allow the jaw to open and close.&lt;/p&gt;
+
+&lt;p&gt;The second hole consisted of a ramp leading up to two spinning platforms you had to get your ball across by timing when they would line up.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/minigolf/</link>
+        <guid isPermaLink="true">http://localhost:4000/minigolf/</guid>
+        
+        
+        <category>making</category>
+        
+      </item>
+    
+      <item>
+        <title>Chicken Tooth</title>
+        <description>&lt;p&gt;A native iPad client for Rooster Teeth video content.&lt;/p&gt;
+
+&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
+&lt;p&gt;The video and photo content this app provides belongs solely to Rooster Teeth and its affiliated members. The purpose of this app is to allow for the viewing of Rooster Teeth content on an iPad. This app does not aim to compete with any Rooster Teeth products and requires all users to be a FIRST member of Rooster Teeth. If there are any questions or concerns you can contact me at jacob@orange.haus.&lt;/p&gt;
+
+&lt;h2 id=&quot;faq&quot;&gt;FAQ&lt;/h2&gt;
+
+&lt;h3 id=&quot;why-first-only&quot;&gt;Why FIRST only?&lt;/h3&gt;
+
+&lt;p&gt;Chicken Tooth is designed to improve the Rooster Teeth iPad experience and I do not wish to take revenue from Rooster Teeth. I cannot serve their ads, so I require every user of Chicken Tooth to have a paying FIRST membership.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-request-a-feature&quot;&gt;How do I request a feature?&lt;/h3&gt;
+
+&lt;p&gt;You can join our discord &lt;a href=&quot;https://discord.gg/WV69dGw&quot;&gt;here&lt;/a&gt;. This is where all news and updates are posted and requests/bugs are processed. If you submit them any other way I cannot guarantee support. DO NOT contact Rooster Teeth with bugs/requests, this app is maintained solely by myself.&lt;/p&gt;
+
+&lt;h3 id=&quot;its-been-a-while-since-i-last-got-an-update-for-the-app&quot;&gt;Its been a while since I last got an update for the app.&lt;/h3&gt;
+
+&lt;p&gt;There is only one developer of Chicken Tooth, and I am not looking to take on any new developers. I also work part time and am a full time college student. This puts strain on my schedule. My goal is to keep up to date with new features when possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://discord.gg/WV69dGw&quot;&gt;DISCORD LINK&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/chickentooth/</link>
+        <guid isPermaLink="true">http://localhost:4000/chickentooth/</guid>
+        
+        
+        <category>app</category>
+        
+      </item>
+    
+      <item>
+        <title>Trend Master</title>
+        <description>&lt;p&gt;Comparing Apples and Oranges with Alexa.&lt;/p&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;Amazon used to host nearly month hackathons for building Alexa skills when they were first launching the system and I always wanted to join one, but either forgot, ran out of time, or just couldn’t think of anything.&lt;/p&gt;
+
+&lt;p&gt;The January 2019 hackathon came around and I thought I should actually try and make something. This is when I made Trend Master, a skill that can compare two items with Google Trends and tells you who won. This is based off a game show on Youtube I watch with the same name.&lt;/p&gt;
+
+&lt;p&gt;I mainly entered because the participation award was a Echo Dot Gen 3 and a Firestick 4K.&lt;/p&gt;
+
+&lt;p&gt;You can add the skill to Alexa &lt;a href=&quot;https://www.amazon.com/Orange-Haus-Trend-Master/dp/B07NPHJVQ9/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 12 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/trendmaster/</link>
+        <guid isPermaLink="true">http://localhost:4000/trendmaster/</guid>
+        
+        
+        <category>app</category>
         
       </item>
     
@@ -131,87 +234,6 @@
         
         
         <category>making</category>
-        
-      </item>
-    
-      <item>
-        <title>RoosterMons</title>
-        <description>&lt;p&gt;A fan Pokemon game using RoosterMons from the RT Extra Life stream poster.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/auT25K7To04&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-
-&lt;p&gt;In this Pokemon clone I was attempting to recreate a simple Pokemon game in Unity3D containing RTs RoosterMons. I got simple battles and tall grass to work, but lost motiviation to continue working on it as I started to need more art, and I am not good at pixel art. It also was taking a lot of time for a game that might not even be played by many people.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“A pokemon clone I am creating to allow people to play as the Roosterteeth roostermons in an actual game. This is the first build and I hope to have it finished by the end of December.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/roostermons/</link>
-        <guid isPermaLink="true">http://localhost:4000/roostermons/</guid>
-        
-        
-        <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>Xbox 360 Indie Development</title>
-        <description>&lt;p&gt;I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lurxyxEQ4do&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;With Dreamspark you get access to a lot of Microsofts professional development software, including the libraries required for build an Xbox 360 game. Shortly after getting the software I made this quick demo, but I later found the access they provide to be quite slow and not that usful so I did not develop for the 360 any more.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“This is a quick talk about exporting to the Xbox 360 and Microsoft DreamSpark”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Sep 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/xboxindie/</link>
-        <guid isPermaLink="true">http://localhost:4000/xboxindie/</guid>
-        
-        
-        <category>game</category>
-        
-      </item>
-    
-      <item>
-        <title>Sunflower Dance Party</title>
-        <description>&lt;p&gt;This is a simulation I made in Maya for a class at UMass Amherst in high school.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0Tso2ePtJUc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;As its sole comment says “That is just a ball popping in and out of a funnel.”.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“Sunflower Dance Party by Kevin Macleod Check out my new website at jacobbashista.net”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Aug 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/sunflowerdance/</link>
-        <guid isPermaLink="true">http://localhost:4000/sunflowerdance/</guid>
-        
-        
-        <category>render</category>
-        
-      </item>
-    
-      <item>
-        <title>20 Years in Five Minutes</title>
-        <description>&lt;p&gt;This is a simulation I made in Maya for a class at UMass Amherst in high school.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bcffWBLUHDg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-&lt;p&gt;Despite what it claims, its not accurate in anyway and has some typos. I would take it down but am leaving it up solely for archival purposes.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“This is a video of the position of the planets for the next 20 years. Their distances from each other and their sizes is not accurate. Only their rotational position around the sun is accurate. Thanks for watching and subscribe for more.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/twentyyears/</link>
-        <guid isPermaLink="true">http://localhost:4000/twentyyears/</guid>
-        
-        
-        <category>render</category>
         
       </item>
     
