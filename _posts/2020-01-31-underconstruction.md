@@ -10,4 +10,4 @@ featured: true
 hidden: true
 ---
 
-I am in the process of rebuilding the website, so some posts have not been transfered yet.
+My goal is that by the end of May 2020 this website will be completely up to date!
