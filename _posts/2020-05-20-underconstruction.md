@@ -10,4 +10,4 @@ featured: true
 hidden: true
 ---
 
-My goal is that by the end of May 2020 this website will be completely up to date!
+My goal is that by the end of June 2020 this website will be completely up to date!
