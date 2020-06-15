@@ -6,8 +6,7 @@ categories: [ tutorial, app ]
 tags: []
 image: assets/images/minelymod.png
 description: "Making the creation of Minecraft Add-Ons simple"
-featured: false
-hidden: false
+comments: false
 ---
 
 Making the creation of Minecraft add-ons simple.

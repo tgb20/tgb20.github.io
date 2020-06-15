@@ -6,8 +6,7 @@ categories: [ render ]
 tags: []
 image: assets/images/sunflowerdance.jpg
 description: "This is a simulation I made in Maya for a class at UMass Amherst in high school."
-featured: false
-hidden: false
+comments: false
 ---
 
 This is a simulation I made in Maya for a class at UMass Amherst in high school.

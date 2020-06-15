@@ -6,8 +6,7 @@ categories: [ game ]
 tags: []
 image: assets/images/simplegame.jpg
 description: "This is the project I have the least information about, but I am including it here because of its importance to myself. "
-featured: false
-hidden: false
+comments: false
 ---
 
 This is the project I have the least information about, but I am including it here because of its importance to myself. 

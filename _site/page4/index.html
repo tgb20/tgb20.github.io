@@ -9,26 +9,25 @@
 <title>Home | Orange Haus</title>
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Page 4 of 4 for Home | Mediumish</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<title>Page 4 of 5 for Home | Orange Haus</title>
+<meta name="generator" content="Jekyll v4.1.0" />
 <meta property="og:title" content="Home" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Jacob Bashista" />
-<meta property="og:description" content="Jacob Bashista" />
+<meta name="description" content="Orange Haus" />
+<meta property="og:description" content="Orange Haus" />
 <link rel="canonical" href="http://localhost:4000/page4/" />
 <meta property="og:url" content="http://localhost:4000/page4/" />
-<meta property="og:site_name" content="Mediumish" />
+<meta property="og:site_name" content="Orange Haus" />
 <link rel="prev" href="http://localhost:4000/page3/" />
+<link rel="next" href="http://localhost:4000/page5/" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/page4/","headline":"Home","description":"Jacob Bashista","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/page4/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"Home","description":"Orange Haus","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-<link href="/assets/css/screen.css" rel="stylesheet">
+<link href="/assets/css/prism.css" rel="stylesheet">
 
-<link href="/assets/css/main.css" rel="stylesheet">
+<link href="/assets/css/theme.css" rel="stylesheet">
 
 <script src="/assets/js/jquery.min.js"></script>
 
@@ -37,61 +36,44 @@
 
 
 
-<body class="layout-default">
+<body>
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
 
-
-<!-- Begin Menu Navigation
+<!-- Begin Sidebar Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
-    <div class="container pr-0">
+<div class="sidebar">    
+</div>   
+<div class="nav-icon">
+    <div class="hamburger-bar"></div>
+</div>
+<div id="blackover-nav" class="blackover"></div>
+<nav id="menu">
+    <ul>
+        <h3>Navigation</h3>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>  
+    </ul>   
+</nav>
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="/">
-    <img src="/assets/images/logo.png" alt="Orange Haus">
-    </a>
-    <!-- End Logo -->
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-
-                
-                <li class="nav-item">
-                
-                <a class="nav-link" href="/index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-                </li>
-
-                <script src="/assets/js/lunr.js"></script>
-
+<script src="/assets/js/lunr.js"></script>
 
 <style>
-    .lunrsearchresult .title {color: #d9230f;}
-    .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;}
+    
 </style>
 
-
-<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
-</form>
+<div class="wrap-search">
+    <div class="d-flex align-items-center ml-auto">
+        <i class="fas fa-search show-search"></i>
+        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+        </form>
+    </div>
+</div>
 
 <div id="lunrsearchresults">
     <ul></ul>
@@ -99,60 +81,88 @@
 
 <script src="/assets/js/lunrsearchengine.js"></script>
 
-            </ul>
 
-        <!-- End Menu -->
-
-    </div>
-
-    </div>
-</nav>
-<!-- End Navigation
+<!-- End Sidebar Navigation
 ================================================== -->
 
-<div class="site-content">
+<div class="site-content ">
 
 <div class="container">
 
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">Orange Haus</h1>
-    <p class="lead">
-        Jacob Bashista
-    </p>
-</div>
+    <!-- Site Logo/Name
+    ================================================== -->
+   
+    <a class="navbar-brand" href="/">
+        <img src="/assets/images/logo.png" alt="Orange Haus">
+    </a>  
+   
 
-<!-- Content
-================================================== -->
-<div class="main-content">
+    <!-- Site Tag
+    ================================================== -->
     
 
-<!-- Posts Index
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        <!-- Posts Index
 ================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Projects</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        
-
+<div class="blog-grid-container">
+    
         <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/flappytaffy/">
+                
+
+                    
+                        <img class="img-thumb" src="/assets/images/flappytaffy.png" alt="Flappy Taffy"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/flappytaffy/">Flappy Taffy</a>
+                
+            </h2>
+            <h4 class="card-text">I made this game using Unity for some friends in my homeschool group.
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/3ab80d692f4457e2687bc127fbce74d8?s=250&d=mm&r=x" alt="Jacob Bashista">
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
+                
+                <span class="post-date">01 Jan 2015</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+    
+        <!-- begin post -->
+
+
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/ftcscout/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/ftcicon.png" alt="FTC Scout"> 
+                        <img class="img-thumb" src="/assets/images/ftcicon.png" alt="FTC Scout"> 
                     
 
                 
@@ -164,7 +174,6 @@
                 
             </h2>
             <h4 class="card-text">This app was developed in 2014 using AI2 to allow FTC teams to share scouting data in one global database.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -176,31 +185,28 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">17 Nov 2014</span>
                 </span>
-                <span class="post-read-more"><a href="/ftcscout/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
 <!-- end post -->
-
-        
-
+    
         <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/markbot/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/markbot.jpg" alt="Markbot"> 
+                        <img class="img-thumb" src="/assets/images/markbot.jpg" alt="Markbot"> 
                     
 
                 
@@ -212,7 +218,6 @@
                 
             </h2>
             <h4 class="card-text">I created Markbot in 2014 as my friend Mark was leaving for college.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -224,31 +229,28 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">25 Jul 2014</span>
                 </span>
-                <span class="post-read-more"><a href="/markbot/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
 <!-- end post -->
-
-        
-
+    
         <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/musicalfloppydrive/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/floppy.jpg" alt="Musical Floppy Drive"> 
+                        <img class="img-thumb" src="/assets/images/floppy.jpg" alt="Musical Floppy Drive"> 
                     
 
                 
@@ -260,7 +262,6 @@
                 
             </h2>
             <h4 class="card-text">Using an Arduino, Floppy Disk Drive, and an old computer power supply I created a system that allows the playback of music on a single floppy drive.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -272,31 +273,28 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Jan 2014</span>
                 </span>
-                <span class="post-read-more"><a href="/musicalfloppydrive/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
 <!-- end post -->
-
-        
-
+    
         <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/click/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/click.png" alt="Click"> 
+                        <img class="img-thumb" src="/assets/images/click.png" alt="Click"> 
                     
 
                 
@@ -308,7 +306,6 @@
                 
             </h2>
             <h4 class="card-text">This game was made in about 20 minutes to test uploading games to Kongregate.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -320,31 +317,28 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">22 Sep 2013</span>
                 </span>
-                <span class="post-read-more"><a href="/click/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
 <!-- end post -->
-
-        
-
+    
         <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/simplegame/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/simplegame.jpg" alt="Simple Game"> 
+                        <img class="img-thumb" src="/assets/images/simplegame.jpg" alt="Simple Game"> 
                     
 
                 
@@ -356,7 +350,6 @@
                 
             </h2>
             <h4 class="card-text">This is the project I have the least information about, but I am including it here because of its importance to myself.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -368,33 +361,27 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Jan 2013</span>
                 </span>
-                <span class="post-read-more"><a href="/simplegame/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
 <!-- end post -->
-
-        
-
-    </div>
-
-</section>
+    
+</div>
 
 <!-- Pagination
 ================================================== -->
 <div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
     
 <div class="pagination">
   
-    <a class="ml-1 mr-1" href="/page3/">&laquo; Prev</a>
+    <a class="ml-1 mr-1" href="/page3/">&laquo; </a>
   
 
   
@@ -414,9 +401,13 @@
       <span class="ml-1 mr-1">4</span>
     
   
+    
+      <a class="ml-1 mr-1" href="/page5/">5</a>
+    
+  
 
   
-    <span>Next &raquo;</span>
+    <a class="ml-1 mr-1" href="/page5/"> &raquo;</a>
   
 </div>
 
@@ -424,39 +415,8 @@
 </div>
 
 
-</div>
-
-
+    </div>
     
-</div>
-
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            
-            
-                
-                    <a class="mt-1 mb-1" href="/categories#making">making (7)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#game">game (7)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#app">app (8)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#render">render (3)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#tutorial">tutorial (3)</a>
-                
-            
-            
-		</div>
-	</div>
 </div>
 
 <!-- Begin Footer
@@ -464,11 +424,8 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
                 Copyright © 2020 Orange Haus 
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
             </div>
         </div>
     </div>
@@ -478,18 +435,14 @@
 
 </div> <!-- /.site-content -->
 
-<!-- Scripts
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="/assets/js/prism.js"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<script src="/assets/js/mediumish.js"></script>
+<script src="/assets/js/theme.js"></script>
 
 
-
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
 
 

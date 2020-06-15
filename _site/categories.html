@@ -9,25 +9,23 @@
 <title>Categories | Orange Haus</title>
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Categories | Mediumish</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<title>Categories | Orange Haus</title>
+<meta name="generator" content="Jekyll v4.1.0" />
 <meta property="og:title" content="Categories" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Jacob Bashista" />
-<meta property="og:description" content="Jacob Bashista" />
+<meta name="description" content="Orange Haus" />
+<meta property="og:description" content="Orange Haus" />
 <link rel="canonical" href="http://localhost:4000/categories" />
 <meta property="og:url" content="http://localhost:4000/categories" />
-<meta property="og:site_name" content="Mediumish" />
+<meta property="og:site_name" content="Orange Haus" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/categories","headline":"Categories","description":"Jacob Bashista","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/categories","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"Categories","description":"Orange Haus","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-<link href="/assets/css/screen.css" rel="stylesheet">
+<link href="/assets/css/prism.css" rel="stylesheet">
 
-<link href="/assets/css/main.css" rel="stylesheet">
+<link href="/assets/css/theme.css" rel="stylesheet">
 
 <script src="/assets/js/jquery.min.js"></script>
 
@@ -36,61 +34,44 @@
 
 
 
-<body class="layout-categories">
+<body>
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
 
-
-<!-- Begin Menu Navigation
+<!-- Begin Sidebar Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
-    <div class="container pr-0">
+<div class="sidebar">    
+</div>   
+<div class="nav-icon">
+    <div class="hamburger-bar"></div>
+</div>
+<div id="blackover-nav" class="blackover"></div>
+<nav id="menu">
+    <ul>
+        <h3>Navigation</h3>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>  
+    </ul>   
+</nav>
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="/">
-    <img src="/assets/images/logo.png" alt="Orange Haus">
-    </a>
-    <!-- End Logo -->
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-
-                
-                <li class="nav-item">
-                
-                <a class="nav-link" href="/index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-                </li>
-
-                <script src="/assets/js/lunr.js"></script>
-
+<script src="/assets/js/lunr.js"></script>
 
 <style>
-    .lunrsearchresult .title {color: #d9230f;}
-    .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;}
+    
 </style>
 
-
-<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
-</form>
+<div class="wrap-search">
+    <div class="d-flex align-items-center ml-auto">
+        <i class="fas fa-search show-search"></i>
+        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+        </form>
+    </div>
+</div>
 
 <div id="lunrsearchresults">
     <ul></ul>
@@ -98,38 +79,32 @@
 
 <script src="/assets/js/lunrsearchengine.js"></script>
 
-            </ul>
 
-        <!-- End Menu -->
-
-    </div>
-
-    </div>
-</nav>
-<!-- End Navigation
+<!-- End Sidebar Navigation
 ================================================== -->
 
-<div class="site-content">
+<div class="site-content ">
 
 <div class="container">
 
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">Orange Haus</h1>
-    <p class="lead">
-        Jacob Bashista
-    </p>
-</div>
+    <!-- Site Logo/Name
+    ================================================== -->
+   
+    <a class="navbar-brand" href="/">
+        <img src="/assets/images/logo.png" alt="Orange Haus">
+    </a>  
+   
 
-<!-- Content
-================================================== -->
-<div class="main-content">
-    <div class="row listrecent">
+    <!-- Site Tag
+    ================================================== -->
+    
 
-<div class="section-title col-md-12 mt-4">
-<h2 id="making">Category <span class="text-capitalize">making</span></h2>
-</div>
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        
+<h4 class="mt-5 mb-neg-30" id="making"><span class="text-capitalize badge badge-primary text-small">making</span></h4>
+<div class="blog-grid-container">
 
 
 
@@ -137,14 +112,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/minigolf/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/roboticminigolf.jpeg" alt="Robotic Mini Golf"> 
+                        <img class="img-thumb" src="/assets/images/roboticminigolf.jpeg" alt="Robotic Mini Golf"> 
                     
 
                 
@@ -156,7 +131,6 @@
                 
             </h2>
             <h4 class="card-text">With a small group of students I worked on building a robotic mini golf course for the Holyoke Public library.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -168,11 +142,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">05 Apr 2019</span>
                 </span>
-                <span class="post-read-more"><a href="/minigolf/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -187,14 +160,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/habdemo/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/simplegomake.png" alt="First HAB Launch"> 
+                        <img class="img-thumb" src="/assets/images/simplegomake.png" alt="First HAB Launch"> 
                     
 
                 
@@ -206,7 +179,6 @@
                 
             </h2>
             <h4 class="card-text">I started working with goMake to build out a app to track HABs.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -218,11 +190,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">21 Aug 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/habdemo/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -237,14 +208,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/battlebot/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/battlebot.jpg" alt="Battlebot Restoration"> 
+                        <img class="img-thumb" src="/assets/images/battlebot.jpg" alt="Battlebot Restoration"> 
                     
 
                 
@@ -256,7 +227,6 @@
                 
             </h2>
             <h4 class="card-text">Attempting to restore a battle bot found at a vocational school.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -268,11 +238,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">24 Jun 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/battlebot/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -287,14 +256,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/osccontroller/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/osccontroller1.jpeg" alt="OSC Controller"> 
+                        <img class="img-thumb" src="/assets/images/osccontroller1.jpeg" alt="OSC Controller"> 
                     
 
                 
@@ -306,7 +275,6 @@
                 
             </h2>
             <h4 class="card-text">Using an Arduino with Processing I built an OSC remote control.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -318,11 +286,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">21 Feb 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/osccontroller/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -337,14 +304,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/markbot/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/markbot.jpg" alt="Markbot"> 
+                        <img class="img-thumb" src="/assets/images/markbot.jpg" alt="Markbot"> 
                     
 
                 
@@ -356,7 +323,6 @@
                 
             </h2>
             <h4 class="card-text">I created Markbot in 2014 as my friend Mark was leaving for college.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -368,11 +334,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">25 Jul 2014</span>
                 </span>
-                <span class="post-read-more"><a href="/markbot/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -387,14 +352,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/musicalfloppydrive/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/floppy.jpg" alt="Musical Floppy Drive"> 
+                        <img class="img-thumb" src="/assets/images/floppy.jpg" alt="Musical Floppy Drive"> 
                     
 
                 
@@ -406,7 +371,6 @@
                 
             </h2>
             <h4 class="card-text">Using an Arduino, Floppy Disk Drive, and an old computer power supply I created a system that allows the playback of music on a single floppy drive.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -418,11 +382,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Jan 2014</span>
                 </span>
-                <span class="post-read-more"><a href="/musicalfloppydrive/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -437,14 +400,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/hexbugrc/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/hexbugcar.jpg" alt="Hexbug RC Car"> 
+                        <img class="img-thumb" src="/assets/images/hexbugcar.jpg" alt="Hexbug RC Car"> 
                     
 
                 
@@ -456,7 +419,6 @@
                 
             </h2>
             <h4 class="card-text">This RC car was made by using a hex bug, some hot glue, and LEGO pieces.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -468,11 +430,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">30 Aug 2011</span>
                 </span>
-                <span class="post-read-more"><a href="/hexbugrc/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -484,10 +445,10 @@
 
 
 
-
-<div class="section-title col-md-12 mt-4">
-<h2 id="game">Category <span class="text-capitalize">game</span></h2>
 </div>
+
+<h4 class="mt-5 mb-neg-30" id="game"><span class="text-capitalize badge badge-primary text-small">game</span></h4>
+<div class="blog-grid-container">
 
 
 
@@ -495,14 +456,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/roostermons/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/roostermons.jpg" alt="RoosterMons"> 
+                        <img class="img-thumb" src="/assets/images/roostermons.jpg" alt="RoosterMons"> 
                     
 
                 
@@ -514,7 +475,6 @@
                 
             </h2>
             <h4 class="card-text">A fan Pokemon game using RoosterMons from the RT Extra Life stream poster.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -526,11 +486,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">21 Nov 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/roostermons/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -545,14 +504,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/xboxindie/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/xboxindie.jpg" alt="Xbox 360 Indie Development"> 
+                        <img class="img-thumb" src="/assets/images/xboxindie.jpg" alt="Xbox 360 Indie Development"> 
                     
 
                 
@@ -564,7 +523,6 @@
                 
             </h2>
             <h4 class="card-text">I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -576,11 +534,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">18 Sep 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/xboxindie/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -595,14 +552,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/spherical/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/sgame.jpg" alt="Spherical Gravity Game"> 
+                        <img class="img-thumb" src="/assets/images/sgame.jpg" alt="Spherical Gravity Game"> 
                     
 
                 
@@ -614,7 +571,6 @@
                 
             </h2>
             <h4 class="card-text">This was an idea for a game I had where you would solve puzzles on a series of spherical planets.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -626,11 +582,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">23 Feb 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/spherical/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -645,14 +600,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/planetexplor/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/planetexplor.jpg" alt="Planet Explor"> 
+                        <img class="img-thumb" src="/assets/images/planetexplor.jpg" alt="Planet Explor"> 
                     
 
                 
@@ -664,7 +619,6 @@
                 
             </h2>
             <h4 class="card-text">This game/educational tool was created using Unity and NASA 3D Resources.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -676,11 +630,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">20 Feb 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/planetexplor/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -695,14 +648,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/flappytaffy/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/flappytaffy.png" alt="Flappy Taffy"> 
+                        <img class="img-thumb" src="/assets/images/flappytaffy.png" alt="Flappy Taffy"> 
                     
 
                 
@@ -714,7 +667,6 @@
                 
             </h2>
             <h4 class="card-text">I made this game using Unity for some friends in my homeschool group.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -726,11 +678,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Jan 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/flappytaffy/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -745,14 +696,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/click/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/click.png" alt="Click"> 
+                        <img class="img-thumb" src="/assets/images/click.png" alt="Click"> 
                     
 
                 
@@ -764,7 +715,6 @@
                 
             </h2>
             <h4 class="card-text">This game was made in about 20 minutes to test uploading games to Kongregate.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -776,11 +726,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">22 Sep 2013</span>
                 </span>
-                <span class="post-read-more"><a href="/click/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -795,14 +744,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/simplegame/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/simplegame.jpg" alt="Simple Game"> 
+                        <img class="img-thumb" src="/assets/images/simplegame.jpg" alt="Simple Game"> 
                     
 
                 
@@ -814,7 +763,6 @@
                 
             </h2>
             <h4 class="card-text">This is the project I have the least information about, but I am including it here because of its importance to myself.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -826,11 +774,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Jan 2013</span>
                 </span>
-                <span class="post-read-more"><a href="/simplegame/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -842,10 +789,10 @@
 
 
 
-
-<div class="section-title col-md-12 mt-4">
-<h2 id="app">Category <span class="text-capitalize">app</span></h2>
 </div>
+
+<h4 class="mt-5 mb-neg-30" id="app"><span class="text-capitalize badge badge-primary text-small">app</span></h4>
+<div class="blog-grid-container">
 
 
 
@@ -853,14 +800,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/streamlink/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/linkhostimage.png" alt="StreamLink"> 
+                        <img class="img-thumb" src="/assets/images/linkhostimage.png" alt="StreamLink"> 
                     
 
                 
@@ -872,7 +819,6 @@
                 
             </h2>
             <h4 class="card-text">StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -884,11 +830,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Aug 2019</span>
                 </span>
-                <span class="post-read-more"><a href="/streamlink/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -903,14 +848,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/chickentooth/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/chickentoothicon.png" alt="Chicken Tooth"> 
+                        <img class="img-thumb" src="/assets/images/chickentoothicon.png" alt="Chicken Tooth"> 
                     
 
                 
@@ -922,7 +867,6 @@
                 
             </h2>
             <h4 class="card-text">A native iPad client for Rooster Teeth video content.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -934,11 +878,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">19 Feb 2019</span>
                 </span>
-                <span class="post-read-more"><a href="/chickentooth/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -953,14 +896,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/trendmaster/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/trendmaster.png" alt="Trend Master"> 
+                        <img class="img-thumb" src="/assets/images/trendmaster.png" alt="Trend Master"> 
                     
 
                 
@@ -972,7 +915,6 @@
                 
             </h2>
             <h4 class="card-text">Comparing Apples and Oranges with Alexa.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -984,11 +926,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">12 Feb 2019</span>
                 </span>
-                <span class="post-read-more"><a href="/trendmaster/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1003,14 +944,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/minelymod/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/minelymod.png" alt="MinelyMod"> 
+                        <img class="img-thumb" src="/assets/images/minelymod.png" alt="MinelyMod"> 
                     
 
                 
@@ -1022,7 +963,6 @@
                 
             </h2>
             <h4 class="card-text">Making the creation of Minecraft add-ons simple.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1034,11 +974,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">11 Dec 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/minelymod/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1053,14 +992,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/habdemo/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/simplegomake.png" alt="First HAB Launch"> 
+                        <img class="img-thumb" src="/assets/images/simplegomake.png" alt="First HAB Launch"> 
                     
 
                 
@@ -1072,7 +1011,6 @@
                 
             </h2>
             <h4 class="card-text">I started working with goMake to build out a app to track HABs.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1084,11 +1022,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">21 Aug 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/habdemo/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1103,14 +1040,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/solarcalc/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/solarcalc.png" alt="Solar Calc"> 
+                        <img class="img-thumb" src="/assets/images/solarcalc.png" alt="Solar Calc"> 
                     
 
                 
@@ -1122,7 +1059,6 @@
                 
             </h2>
             <h4 class="card-text">SolarCalc is an app that helps you size your grid tied solar array to offset any portion (or all!) of your electric bill.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1134,11 +1070,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">02 May 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/solarcalc/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1153,14 +1088,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/flappytaffy/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/flappytaffy.png" alt="Flappy Taffy"> 
+                        <img class="img-thumb" src="/assets/images/flappytaffy.png" alt="Flappy Taffy"> 
                     
 
                 
@@ -1172,7 +1107,6 @@
                 
             </h2>
             <h4 class="card-text">I made this game using Unity for some friends in my homeschool group.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1184,11 +1118,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">01 Jan 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/flappytaffy/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1203,14 +1136,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/ftcscout/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/ftcicon.png" alt="FTC Scout"> 
+                        <img class="img-thumb" src="/assets/images/ftcicon.png" alt="FTC Scout"> 
                     
 
                 
@@ -1222,7 +1155,6 @@
                 
             </h2>
             <h4 class="card-text">This app was developed in 2014 using AI2 to allow FTC teams to share scouting data in one global database.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1234,11 +1166,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">17 Nov 2014</span>
                 </span>
-                <span class="post-read-more"><a href="/ftcscout/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1250,10 +1181,10 @@
 
 
 
-
-<div class="section-title col-md-12 mt-4">
-<h2 id="render">Category <span class="text-capitalize">render</span></h2>
 </div>
+
+<h4 class="mt-5 mb-neg-30" id="render"><span class="text-capitalize badge badge-primary text-small">render</span></h4>
+<div class="blog-grid-container">
 
 
 
@@ -1261,14 +1192,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/sunflowerdance/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/sunflowerdance.jpg" alt="Sunflower Dance Party"> 
+                        <img class="img-thumb" src="/assets/images/sunflowerdance.jpg" alt="Sunflower Dance Party"> 
                     
 
                 
@@ -1280,7 +1211,6 @@
                 
             </h2>
             <h4 class="card-text">This is a simulation I made in Maya for a class at UMass Amherst in high school.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1292,11 +1222,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">07 Aug 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/sunflowerdance/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1311,14 +1240,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/twentyyears/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/twentyinfive.jpg" alt="20 Years in Five Minutes"> 
+                        <img class="img-thumb" src="/assets/images/twentyinfive.jpg" alt="20 Years in Five Minutes"> 
                     
 
                 
@@ -1330,7 +1259,6 @@
                 
             </h2>
             <h4 class="card-text">This is a simulation I made in Maya for a class at UMass Amherst in high school.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1342,11 +1270,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">29 Jul 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/twentyyears/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1361,14 +1288,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/augmentedreality/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/ardemo.jpg" alt="Augmented Reality Demo"> 
+                        <img class="img-thumb" src="/assets/images/ardemo.jpg" alt="Augmented Reality Demo"> 
                     
 
                 
@@ -1380,7 +1307,6 @@
                 
             </h2>
             <h4 class="card-text">I made this project after watching the HoloLens announcement.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1392,11 +1318,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">04 Feb 2015</span>
                 </span>
-                <span class="post-read-more"><a href="/augmentedreality/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1408,10 +1333,10 @@
 
 
 
-
-<div class="section-title col-md-12 mt-4">
-<h2 id="tutorial">Category <span class="text-capitalize">tutorial</span></h2>
 </div>
+
+<h4 class="mt-5 mb-neg-30" id="tutorial"><span class="text-capitalize badge badge-primary text-small">tutorial</span></h4>
+<div class="blog-grid-container">
 
 
 
@@ -1419,14 +1344,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/minelymod/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/minelymod.png" alt="MinelyMod"> 
+                        <img class="img-thumb" src="/assets/images/minelymod.png" alt="MinelyMod"> 
                     
 
                 
@@ -1438,7 +1363,6 @@
                 
             </h2>
             <h4 class="card-text">Making the creation of Minecraft add-ons simple.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1450,11 +1374,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">11 Dec 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/minelymod/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1469,14 +1392,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/swift/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/swift.jpg" alt="Introduction to Swift"> 
+                        <img class="img-thumb" src="/assets/images/swift.jpg" alt="Introduction to Swift"> 
                     
 
                 
@@ -1488,7 +1411,6 @@
                 
             </h2>
             <h4 class="card-text">A simple class I taught in how to make tic tac toe in Swift.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1500,11 +1422,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">19 Sep 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/swift/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1519,14 +1440,14 @@
 <!-- begin post -->
 
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/creeper/">
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/creeper.jpg" alt="Making a Minecraft Creeper in TinkerCAD"> 
+                        <img class="img-thumb" src="/assets/images/creeper.jpg" alt="Making a Minecraft Creeper in TinkerCAD"> 
                     
 
                 
@@ -1538,7 +1459,6 @@
                 
             </h2>
             <h4 class="card-text">A tutorial I made for making a crepper in TinkerCAD to be 3D printed.
-
 </h4>
         </div>
         <div class="card-footer bg-white">
@@ -1550,11 +1470,10 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span><br/>
+                <span class="post-name"><a target="_blank" href="https://orange.haus">Jacob Bashista</a></span> 
                 
                 <span class="post-date">20 Jul 2016</span>
                 </span>
-                <span class="post-read-more"><a href="/creeper/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -1566,41 +1485,11 @@
 
 
 
-
-</div>
 </div>
 
 
+    </div>
     
-</div>
-
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            
-            
-                
-                    <a class="mt-1 mb-1" href="/categories#making">making (7)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#game">game (7)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#app">app (8)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#render">render (3)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#tutorial">tutorial (3)</a>
-                
-            
-            
-		</div>
-	</div>
 </div>
 
 <!-- Begin Footer
@@ -1608,11 +1497,8 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
                 Copyright © 2020 Orange Haus 
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
             </div>
         </div>
     </div>
@@ -1622,18 +1508,14 @@
 
 </div> <!-- /.site-content -->
 
-<!-- Scripts
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="/assets/js/prism.js"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<script src="/assets/js/mediumish.js"></script>
+<script src="/assets/js/theme.js"></script>
 
 
-
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
 
 

@@ -6,8 +6,7 @@ categories: [ app ]
 tags: []
 image: assets/images/trendmaster.png
 description: "Comparing Apples and Oranges with Alexa"
-featured: false
-hidden: false
+comments: false
 ---
 
 Comparing Apples and Oranges with Alexa.

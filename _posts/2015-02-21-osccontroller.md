@@ -6,8 +6,7 @@ categories: [ making ]
 tags: []
 image: assets/images/osccontroller1.jpeg
 description: "Using an Arduino with Processing I built an OSC remote control."
-featured: false
-hidden: false
+comments: false
 ---
 
 Using an Arduino with Processing I built an OSC remote control. 

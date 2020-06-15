@@ -6,8 +6,7 @@ categories: [ app ]
 tags: []
 image: assets/images/solarcalc.png
 description: "SolarCalc is an app that helps you size your grid tied solar array to offset any portion (or all!) of your electric bill."
-featured: false
-hidden: true
+comments: false
 ---
 
 SolarCalc is an app that helps you size your grid tied solar array to offset any portion (or all!) of your electric bill.

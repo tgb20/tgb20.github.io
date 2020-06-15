@@ -6,8 +6,7 @@ categories: [ render ]
 tags: []
 image: assets/images/ardemo.jpg
 description: "I made this project after watching the HoloLens announcement."
-featured: false
-hidden: false
+comments: false
 ---
 
 I made this project after watching the [HoloLens announcement](https://www.youtube.com/watch?v=FbhVCZKVOqE).

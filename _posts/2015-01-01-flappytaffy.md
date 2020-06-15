@@ -6,8 +6,7 @@ categories: [ game, app ]
 tags: []
 image: assets/images/flappytaffy.png
 description: "I made this game using Unity for some friends in my homeschool group."
-featured: false
-hidden: false
+comments: false
 ---
 
 I made this game using [Unity](https://unity3d.com) for some friends in my homeschool group.

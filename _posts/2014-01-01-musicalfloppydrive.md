@@ -6,8 +6,7 @@ categories: [ making ]
 tags: []
 image: assets/images/floppy.jpg
 description: "I created a system that allows the playback of music on a single floppy drive."
-featured: false
-hidden: false
+comments: false
 ---
 
 Using an Arduino, Floppy Disk Drive, and an old computer power supply I created a system that allows the playback of music on a single floppy drive.

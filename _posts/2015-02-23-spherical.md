@@ -6,8 +6,7 @@ categories: [ game ]
 tags: []
 image: assets/images/sgame.jpg
 description: "This was an idea for a game I had where you would solve puzzles on a series of spherical planets."
-featured: false
-hidden: false
+comments: false
 ---
 
 This was an idea for a game I had where you would solve puzzles on a series of spherical planets.

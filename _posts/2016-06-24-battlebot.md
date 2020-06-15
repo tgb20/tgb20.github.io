@@ -6,8 +6,7 @@ categories: [ making ]
 tags: []
 image: assets/images/battlebot.jpg
 description: "Attempting to restore a battle bot found at a vocational school."
-featured: false
-hidden: false
+comments: false
 ---
 
 Attempting to restore a battle bot found at a vocational school.

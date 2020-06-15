@@ -6,8 +6,7 @@ categories: [ app ]
 tags: []
 image: assets/images/chickentoothicon.png
 description: "A native iPad client for Rooster Teeth video content."
-featured: false
-hidden: false
+comments: false
 ---
 
 A native iPad client for Rooster Teeth video content.

@@ -6,8 +6,7 @@ categories: [ game ]
 tags: []
 image: assets/images/planetexplor.jpg
 description: "This game/educational tool was created using Unity and NASA 3D Resources."
-featured: false
-hidden: false
+comments: false
 ---
 
 This game/educational tool was created using [Unity](https://unity3d.com) and [NASA 3D Resources](https://nasa3d.arc.nasa.gov/).

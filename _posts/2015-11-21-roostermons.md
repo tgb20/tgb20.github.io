@@ -6,8 +6,7 @@ categories: [ game ]
 tags: []
 image: assets/images/roostermons.jpg
 description: "A fan Pokemon game using RoosterMons from the RT Extra Life stream poster."
-featured: false
-hidden: false
+comments: false
 ---
 
 A fan Pokemon game using RoosterMons from the RT Extra Life stream poster.

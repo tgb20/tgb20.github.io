@@ -3,12 +3,12 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/404.html",
     "title": "404",
-    "body": "404 Page does not exist!Please use the search bar at the top or visit our homepage! "
+    "body": "404 Page not found!Please use the search bar from the bottom left or visit our homepage! "
     }, {
     "id": 1,
     "url": "http://localhost:4000/about",
     "title": "About",
-    "body": "This website serves as a log of any and all (when I remember) projects I have worked on. My goal is to have this website contain as much detail as possible, allowing for these projects to be revisited and used for reference in the future. As of now I am finishing my senior year of college at UMass Amherst studing CS Informatics. My goal is to find a job at a place where I feel challenged and I contribute to the world. Whether this is through teaching, building software for better energy, or just working on good projects, I look forward to what will come next. If you would like to check me out on other platforms you can check me out below! Twitter: Follow me on Twitter! Youtube: Please, subscribe on Youtube! Github: Head over to my Github! "
+    "body": "Jacob Bashista is a driven technical problem solver with over 6 years experience in Mobile, Web, and Hardware fields. He works collaboratively with professionals creating classes and simulations focuses on AI, Mobile, and VR experiences. Excellent problem-solving skills with a keen eye for detail focused on creating functional solutions to complex real world hardware and software challenges. Email: You can email me at j@cob. email Twitter: Follow me on Twitter! Youtube: Please, subscribe on Youtube! Github: Head over to my Github! "
     }, {
     "id": 2,
     "url": "http://localhost:4000/categories",
@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://localhost:4000/",
     "title": "Home",
-    "body": "      Featured:                                                                                                                                                                                                           Site Under Construction                              :               I am in the process of rebuilding the website, so some posts have not been transfered yet. :                                                                                                                                                                       Jacob Bashista                                31 Jan 2020                                                                                                                                                                                                                                                                            All Projects:                                                                                                     StreamLink              :       StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations. :                                                                               Jacob Bashista                01 Aug 2019                                                                                                                                     Robotic Mini Golf              :       With a small group of students I worked on building a robotic mini golf course for the Holyoke Public library. :                                                                               Jacob Bashista                05 Apr 2019                                                                                                                                     Chicken Tooth              :       A native iPad client for Rooster Teeth video content. :                                                                               Jacob Bashista                19 Feb 2019                                                                                                                                     Trend Master              :       Comparing Apples and Oranges with Alexa. :                                                                               Jacob Bashista                12 Feb 2019                                                                                                                                     MinelyMod              :       Making the creation of Minecraft add-ons simple. :                                                                               Jacob Bashista                11 Dec 2016                                                                                                                                     Introduction to Swift              :       A simple class I taught in how to make tic tac toe in Swift. :                                                                               Jacob Bashista                19 Sep 2016                                               &laquo; Prev       1        2        3        4      Next &raquo; "
+    "body": "                                                                                               StreamLink              :       StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations. :                                                                               Jacob Bashista                 01 Aug 2019                                                                                                                           Robotic Mini Golf              :       With a small group of students I worked on building a robotic mini golf course for the Holyoke Public library. :                                                                               Jacob Bashista                 05 Apr 2019                                                                                                                           Chicken Tooth              :       A native iPad client for Rooster Teeth video content. :                                                                               Jacob Bashista                 19 Feb 2019                                                                                                                           Trend Master              :       Comparing Apples and Oranges with Alexa. :                                                                               Jacob Bashista                 12 Feb 2019                                                                                                                           MinelyMod              :       Making the creation of Minecraft add-ons simple. :                                                                               Jacob Bashista                 11 Dec 2016                                                                                                                           Introduction to Swift              :       A simple class I taught in how to make tic tac toe in Swift. :                                                                               Jacob Bashista                 19 Sep 2016                                   &laquo;        1        2        3        4        5       &raquo; "
     }, {
     "id": 4,
     "url": "http://localhost:4000/robots.txt",
@@ -28,22 +28,22 @@ var documents = [{
     "id": 5,
     "url": "http://localhost:4000/page2/",
     "title": "Home",
-    "body": "{% if page. url == “/” %}       Featured:       {% for post in site. posts %}    {% if post. featured == true %}      {% include featuredbox. html %}    {% endif %}  {% endfor %}  {% endif %}       All Projects:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
+    "body": "  {% for post in paginator. posts %}    {% include postbox. html %}  {% endfor %}  {% include pagination. html %}"
     }, {
     "id": 6,
     "url": "http://localhost:4000/page3/",
     "title": "Home",
-    "body": "{% if page. url == “/” %}       Featured:       {% for post in site. posts %}    {% if post. featured == true %}      {% include featuredbox. html %}    {% endif %}  {% endfor %}  {% endif %}       All Projects:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
+    "body": "  {% for post in paginator. posts %}    {% include postbox. html %}  {% endfor %}  {% include pagination. html %}"
     }, {
     "id": 7,
     "url": "http://localhost:4000/page4/",
     "title": "Home",
-    "body": "{% if page. url == “/” %}       Featured:       {% for post in site. posts %}    {% if post. featured == true %}      {% include featuredbox. html %}    {% endif %}  {% endfor %}  {% endif %}       All Projects:         {% for post in paginator. posts %}    {% include postbox. html %}    {% endfor %}    {% include pagination. html %}"
+    "body": "  {% for post in paginator. posts %}    {% include postbox. html %}  {% endfor %}  {% include pagination. html %}"
     }, {
     "id": 8,
-    "url": "http://localhost:4000/underconstruction/",
-    "title": "Site Under Construction",
-    "body": "2020/01/31 - I am in the process of rebuilding the website, so some posts have not been transfered yet. "
+    "url": "http://localhost:4000/page5/",
+    "title": "Home",
+    "body": "  {% for post in paginator. posts %}    {% include postbox. html %}  {% endfor %}  {% include pagination. html %}"
     }, {
     "id": 9,
     "url": "http://localhost:4000/streamlink/",
@@ -195,7 +195,7 @@ function lunr_search(term) {
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><span class='body'>"+ body +"</span><span class='url'>"+ url +"</span></a></li>";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
@@ -208,7 +208,7 @@ function lunr_search(term) {
     $('#lunrsearchresults').show( 400 );
     $( "body" ).addClass( "modal-open" );
     
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
     if(term) {
         document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Search results for '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
         //put results on the screen.
@@ -222,7 +222,7 @@ function lunr_search(term) {
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></small></a></li>";
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><small><span class='body'>"+ body +"</span><span class='url'>"+ url +"</span></small></a></li>";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Sorry, no results found. Close & try a different search!</li>";

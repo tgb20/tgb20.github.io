@@ -6,8 +6,7 @@ categories: [ game ]
 tags: []
 image: assets/images/xboxindie.jpg
 description: "I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360."
-featured: false
-hidden: false
+comments: false
 ---
 
 I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360.

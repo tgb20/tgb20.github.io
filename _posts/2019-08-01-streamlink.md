@@ -6,8 +6,7 @@ categories: [ app ]
 tags: []
 image: assets/images/linkhostimage.png
 description: "StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations."
-featured: false
-hidden: false
+comments: false
 ---
 
 StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations.
