@@ -4,7 +4,7 @@ title:  "Planet Explor"
 author: jacob
 categories: [ game ]
 tags: []
-image: assets/images/planetexplor.jpg
+image: assets/images/planetexplor/planetexplor.jpg
 description: "This game/educational tool was created using Unity and NASA 3D Resources."
 comments: false
 ---

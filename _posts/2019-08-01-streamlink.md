@@ -4,14 +4,14 @@ title:  "StreamLink"
 author: jacob
 categories: [ app ]
 tags: []
-image: assets/images/linkhostimage.png
+image: assets/images/streamlink/linkhostimage.png
 description: "StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations."
 comments: false
 ---
 
 StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations.
 
-![alt text](/assets/images/linkclientimage.png "Picture of Client Device")
+![alt text](/assets/images/streamlink/linkclientimage.png "Picture of Client Device")
 
 #### About
 This project will provide co-robotics workshops run by Holyoke Codes at Girls Inc. and Boys and Girls Club of Holyoke. 

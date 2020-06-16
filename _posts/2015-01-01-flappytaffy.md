@@ -4,7 +4,7 @@ title:  "Flappy Taffy"
 author: jacob
 categories: [ game, app ]
 tags: []
-image: assets/images/flappytaffy.png
+image: assets/images/flappytaffy/flappytaffy.png
 description: "I made this game using Unity for some friends in my homeschool group."
 comments: false
 ---
@@ -20,6 +20,6 @@ The original caption was *"This is a fun little game I made for my local homesch
 
 Here are some screenshots:
 
-![alt text](/assets/images/flappyscreenshot1.png "Screenshot 1")
-![alt text](/assets/images/flappyscreenshot2.png "Screenshot 2")
-![alt text](/assets/images/flappyscreenshot3.png "Screenshot 3")
+![alt text](/assets/images/flappytaffy/flappyscreenshot1.png "Screenshot 1")
+![alt text](/assets/images/flappytaffy/flappyscreenshot2.png "Screenshot 2")
+![alt text](/assets/images/flappytaffy/flappyscreenshot3.png "Screenshot 3")

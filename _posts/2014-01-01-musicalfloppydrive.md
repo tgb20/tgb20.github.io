@@ -4,7 +4,7 @@ title:  "Musical Floppy Drive"
 author: jacob
 categories: [ making ]
 tags: []
-image: assets/images/floppy.jpg
+image: assets/images/musicalfloppydrive/floppy.jpg
 description: "I created a system that allows the playback of music on a single floppy drive."
 comments: false
 ---

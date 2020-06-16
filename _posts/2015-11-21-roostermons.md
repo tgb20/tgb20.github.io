@@ -4,7 +4,7 @@ title:  "RoosterMons"
 author: jacob
 categories: [ game ]
 tags: []
-image: assets/images/roostermons.jpg
+image: assets/images/roostermons/roostermons.jpg
 description: "A fan Pokemon game using RoosterMons from the RT Extra Life stream poster."
 comments: false
 ---

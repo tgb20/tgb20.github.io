@@ -4,7 +4,7 @@ title:  "MinelyMod"
 author: jacob
 categories: [ tutorial, app ]
 tags: []
-image: assets/images/minelymod.png
+image: assets/images/minelymod/minelymod.png
 description: "Making the creation of Minecraft Add-Ons simple"
 comments: false
 ---

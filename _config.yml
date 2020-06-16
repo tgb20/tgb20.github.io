@@ -1,7 +1,6 @@
 # Site
 name: "Orange Haus"
 title: "Orange Haus"
-description: "Orange Haus"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
@@ -39,7 +38,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 200
 paginate_path: /page:num/
     
 # Other

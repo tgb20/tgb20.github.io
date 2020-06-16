@@ -4,7 +4,7 @@ title:  "Spherical Gravity Game"
 author: jacob
 categories: [ game ]
 tags: []
-image: assets/images/sgame.jpg
+image: assets/images/spherical/sgame.jpg
 description: "This was an idea for a game I had where you would solve puzzles on a series of spherical planets."
 comments: false
 ---

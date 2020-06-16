@@ -4,7 +4,7 @@ title:  "Xbox 360 Indie Development"
 author: jacob
 categories: [ game ]
 tags: []
-image: assets/images/xboxindie.jpg
+image: assets/images/xboxindie/xboxindie.jpg
 description: "I recently learned about the Microsoft Dreamspark program, and the Indie Dev tools for the Xbox 360."
 comments: false
 ---

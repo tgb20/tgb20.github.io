@@ -4,7 +4,7 @@ title:  "Battlebot Restoration"
 author: jacob
 categories: [ making ]
 tags: []
-image: assets/images/battlebot.jpg
+image: assets/images/battlebot/battlebot.jpg
 description: "Attempting to restore a battle bot found at a vocational school."
 comments: false
 ---

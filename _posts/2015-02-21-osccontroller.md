@@ -4,7 +4,7 @@ title:  "OSC Controller"
 author: jacob
 categories: [ making ]
 tags: []
-image: assets/images/osccontroller1.jpeg
+image: assets/images/osccontroller/osccontroller1.jpeg
 description: "Using an Arduino with Processing I built an OSC remote control."
 comments: false
 ---
@@ -18,4 +18,4 @@ You can learn more about OSC [here](http://opensoundcontrol.org/introduction-osc
 
 While OSC is designed mainly for sound and midi, I found a way to just use these same signals to control some LEDS.
 
-![alt text](/assets/images/osccontroller2.jpeg "Picture of Arduino 2")
+![alt text](/assets/images/osccontroller/osccontroller2.jpeg "Picture of Arduino 2")

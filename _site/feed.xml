@@ -2,18 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orange Haus</title>
-    <description>Orange Haus</description>
+    <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jun 2020 13:17:01 -0400</pubDate>
-    <lastBuildDate>Mon, 15 Jun 2020 13:17:01 -0400</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2020 11:15:26 -0400</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2020 11:15:26 -0400</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>Hermes</title>
+        <description>&lt;p&gt;Hermes is an app for Mac and Windows that allows you to Code the Tello Edu drone with Scratch blocks&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hermes/hermeslogo.png&quot; alt=&quot;alt text&quot; title=&quot;Hermes Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
+&lt;p&gt;Hermes is an app for Mac and Windows that allows you to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Code the Tello Edu drone with Scratch blocks&lt;/li&gt;
+  &lt;li&gt;Control your drone with mouse or keyboard&lt;/li&gt;
+  &lt;li&gt;Recognize AruCo markers with OpenCV&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;You can find the latest version of Hermes at &lt;a href=&quot;https://github.com/tgb20/Hermes/releases&quot;&gt;https://github.com/tgb20/Hermes/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;Please read the documentation at &lt;a href=&quot;https://hermes.orange.haus&quot;&gt;https://hermes.orange.haus&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contributors&quot;&gt;Contributors:&lt;/h2&gt;
+
+&lt;p&gt;Jacob Bashista and Andrew Pasquale&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hermes/nsflogo.png&quot; alt=&quot;alt text&quot; title=&quot;NSF Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This work is partially funded by NSF grant 1830179.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hermes/holyokecodeslogo.jpg&quot; alt=&quot;alt text&quot; title=&quot;Holyoke Codes Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://holyokecodes.org&quot;&gt;Vist Holyoke Codes!&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Jun 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/hermes/</link>
+        <guid isPermaLink="true">http://localhost:4000/hermes/</guid>
+        
+        
+        <category>app</category>
+        
+      </item>
     
       <item>
         <title>StreamLink</title>
         <description>&lt;p&gt;StreamLink is an App Inventor Extension created as a part of an NSF project titled GIRLS Immersed in Robotics Learning Simulations.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/linkclientimage.png&quot; alt=&quot;alt text&quot; title=&quot;Picture of Client Device&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/streamlink/linkclientimage.png&quot; alt=&quot;alt text&quot; title=&quot;Picture of Client Device&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
 &lt;p&gt;This project will provide co-robotics workshops run by Holyoke Codes at Girls Inc. and Boys and Girls Club of Holyoke.&lt;/p&gt;
@@ -223,27 +268,6 @@
         
         
         <category>making</category>
-        
-      </item>
-    
-      <item>
-        <title>RoosterMons</title>
-        <description>&lt;p&gt;A fan Pokemon game using RoosterMons from the RT Extra Life stream poster.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/auT25K7To04&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h4 id=&quot;about&quot;&gt;About&lt;/h4&gt;
-
-&lt;p&gt;In this Pokemon clone I was attempting to recreate a simple Pokemon game in Unity3D containing RTs RoosterMons. I got simple battles and tall grass to work, but lost motiviation to continue working on it as I started to need more art, and I am not good at pixel art. It also was taking a lot of time for a game that might not even be played by many people.&lt;/p&gt;
-
-&lt;p&gt;The original description was &lt;em&gt;“A pokemon clone I am creating to allow people to play as the Roosterteeth roostermons in an actual game. This is the first build and I hope to have it finished by the end of December.”&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/roostermons/</link>
-        <guid isPermaLink="true">http://localhost:4000/roostermons/</guid>
-        
-        
-        <category>game</category>
         
       </item>
     

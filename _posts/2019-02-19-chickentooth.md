@@ -4,7 +4,7 @@ title:  "Chicken Tooth"
 author: jacob
 categories: [ app ]
 tags: []
-image: assets/images/chickentoothicon.png
+image: assets/images/chickentooth/chickentoothicon.png
 description: "A native iPad client for Rooster Teeth video content."
 comments: false
 ---

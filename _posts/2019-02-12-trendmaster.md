@@ -4,7 +4,7 @@ title:  "Trend Master"
 author: jacob
 categories: [ app ]
 tags: []
-image: assets/images/trendmaster.png
+image: assets/images/trendmaster/trendmaster.png
 description: "Comparing Apples and Oranges with Alexa"
 comments: false
 ---

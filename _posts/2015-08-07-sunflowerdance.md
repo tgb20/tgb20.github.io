@@ -4,7 +4,7 @@ title:  "Sunflower Dance Party"
 author: jacob
 categories: [ render ]
 tags: []
-image: assets/images/sunflowerdance.jpg
+image: assets/images/sunflowerdance/sunflowerdance.jpg
 description: "This is a simulation I made in Maya for a class at UMass Amherst in high school."
 comments: false
 ---

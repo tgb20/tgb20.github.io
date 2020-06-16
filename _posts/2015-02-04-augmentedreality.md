@@ -4,7 +4,7 @@ title:  "Augmented Reality Demo"
 author: jacob
 categories: [ render ]
 tags: []
-image: assets/images/ardemo.jpg
+image: assets/images/augmentedreality/ardemo.jpg
 description: "I made this project after watching the HoloLens announcement."
 comments: false
 ---
