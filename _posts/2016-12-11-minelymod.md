@@ -2,7 +2,7 @@
 layout: post
 title:  "MinelyMod"
 author: jacob
-categories: [ tutorial, app ]
+categories: [ app ]
 tags: []
 image: assets/images/minelymod/minelymod.png
 description: "Making the creation of Minecraft Add-Ons simple"
